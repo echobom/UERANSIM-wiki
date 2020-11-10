@@ -61,3 +61,25 @@ TODO
 - [x] Uplink NAS Transport
 - [ ] NAS Non Delivery Indication
 - [x] Reroute NAS Request
+
+#### 9. GNB Interface Management Procedures
+- [x] NG Setup
+- [ ] RAN Configuration Update
+- [ ] AMF Configuration Update
+- [ ] NG Reset
+- [x] Error Indication
+- [ ] AMF Status Indication
+- [ ] Overload Start
+- [ ] Overload Stop
+
+#### 10. GNB Configuration Transfer Procedures
+- [ ] Uplink RAN Configuration Transfer
+- [ ] Downlink RAN Configuration Transfer
+
+#### 11. Warning Message Transmission Procedures
+- [ ] Write-Replace Warning
+- [ ] PWS Cancel
+- [ ] PWS Restart Indication
+- [ ] PWS Failure Indication
+
+
