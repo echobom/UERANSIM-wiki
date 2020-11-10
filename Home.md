@@ -2,4 +2,4 @@ Welcome to the UERANSIM wiki!
 
 Index:
 
-- [Feature Set](FeatureSet)
+- [Feature Set](Feature-Set)
