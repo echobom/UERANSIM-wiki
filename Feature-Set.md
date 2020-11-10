@@ -8,7 +8,6 @@
 - [x] Periodic Registration
 - [x] UE initiated De-registration
 - [x] Network Initiated De-registration
-- [x] Network Initiated De-registration
 - [ ] e-Call Inactivity
 - [ ] Service Request
 - [ ] Paging
