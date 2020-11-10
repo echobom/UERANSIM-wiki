@@ -52,17 +52,14 @@ TODO
 #### 6. GNB Paging Procedures
 - [ ] Paging
 
-#### 7. GNB Paging Procedures
-- [ ] Paging
-
-#### 8. GNB Transport of NAS Messages Procedures
+#### 7. GNB Transport of NAS Messages Procedures
 - [x] Initial UE Message
 - [x] Downlink NAS Transport
 - [x] Uplink NAS Transport
 - [ ] NAS Non Delivery Indication
 - [x] Reroute NAS Request
 
-#### 9. GNB Interface Management Procedures
+#### 8. GNB Interface Management Procedures
 - [x] NG Setup
 - [ ] RAN Configuration Update
 - [ ] AMF Configuration Update
@@ -72,14 +69,23 @@ TODO
 - [ ] Overload Start
 - [ ] Overload Stop
 
-#### 10. GNB Configuration Transfer Procedures
+#### 9. GNB Configuration Transfer Procedures
 - [ ] Uplink RAN Configuration Transfer
 - [ ] Downlink RAN Configuration Transfer
 
-#### 11. GNB Warning Message Transmission Procedures
+#### 10. GNB Warning Message Transmission Procedures
 - [ ] Write-Replace Warning
 - [ ] PWS Cancel
 - [ ] PWS Restart Indication
 - [ ] PWS Failure Indication
 
+#### 11. GNB Radio Capability Management Procedures
+- [ ] UE Radio Capability Info Indication
+- [ ] UE Radio Capability Check
+
+#### 12. GNB Other Procedures
+- [ ] NRPPa Transport
+- [ ] Trace
+- [ ] Location Reporting
+- [ ] Data Usage Reporting
 
