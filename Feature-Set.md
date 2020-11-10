@@ -84,7 +84,7 @@ TODO
 - [ ] UE Radio Capability Check
 
 ### GNB Other Procedures
-- [-] NRPPa Transport
+- [ ] NRPPa Transport
 - [ ] Trace
 - [ ] Location Reporting
 - [ ] Data Usage Reporting
