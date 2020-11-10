@@ -39,3 +39,25 @@ TODO
 - [x] UE Context Modification
 - [ ] RRC Inactive Transition Report
 - [ ] PDU Session Resource Modify Indication
+
+#### 5. GNB UE Mobility Management Procedures
+- [ ] Handover Preparation
+- [ ] Handover Resource Allocation
+- [ ] Handover Notification
+- [ ] Path Switch Request
+- [ ] Handover Cancellation
+- [ ] Uplink RAN Status Transfer
+- [ ] Downlink RAN Status Transfer
+
+#### 6. GNB Paging Procedures
+- [ ] Paging
+
+#### 7. GNB Paging Procedures
+- [ ] Paging
+
+#### 8. GNB Transport of NAS Messages Procedures
+- [x] Initial UE Message
+- [x] Downlink NAS Transport
+- [x] Uplink NAS Transport
+- [ ] NAS Non Delivery Indication
+- [x] Reroute NAS Request
