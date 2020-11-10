@@ -1,6 +1,3 @@
-### General Info
-TODO
-
 ### UE Mobility Management Procedures
 - [x] Primary Authentication and Key Agreement
 - [x] Security Mode Control
