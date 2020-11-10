@@ -76,7 +76,7 @@ TODO
 - [ ] Uplink RAN Configuration Transfer
 - [ ] Downlink RAN Configuration Transfer
 
-#### 11. Warning Message Transmission Procedures
+#### 11. GNB Warning Message Transmission Procedures
 - [ ] Write-Replace Warning
 - [ ] PWS Cancel
 - [ ] PWS Restart Indication
