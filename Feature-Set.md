@@ -1,7 +1,7 @@
-#### 1. General Info
+#### General Info
 TODO
 
-#### 2. UE Mobility Management Procedures
+#### UE Mobility Management Procedures
 - [x] Primary Authentication and Key Agreement
 - [x] Security Mode Control
 - [x] Identification
@@ -17,7 +17,7 @@ TODO
 - [ ] Paging
 - [ ] Notification
 
-#### 3. UE Session Management Procedures
+#### UE Session Management Procedures
 - [ ] PDU Session Authentication and Authorization
 - [ ] Network-requested PDU Session Modification
 - [ ] Network-requested PDU Session Release
@@ -25,14 +25,14 @@ TODO
 - [ ] UE-requested PDU Session Modification
 - [ ] UE-requested PDU Session Release
 
-#### 4. GNB PDU Session Management Procedures
+#### GNB PDU Session Management Procedures
 - [x] PDU Session Resource Setup
 - [ ] PDU Session Resource Release
 - [ ] PDU Session Resource Modify
 - [ ] PDU Session Resource Notify
 - [ ] PDU Session Resource Modify Indication
 
-#### 4. GNB UE Context Management Procedures
+#### GNB UE Context Management Procedures
 - [x] Initial Context Setup
 - [ ] UE Context Release Request (NG-RAN initiated)
 - [x] UE Context Release (AMF initiated)
@@ -40,7 +40,7 @@ TODO
 - [ ] RRC Inactive Transition Report
 - [ ] PDU Session Resource Modify Indication
 
-#### 5. GNB UE Mobility Management Procedures
+#### GNB UE Mobility Management Procedures
 - [ ] Handover Preparation
 - [ ] Handover Resource Allocation
 - [ ] Handover Notification
@@ -49,17 +49,17 @@ TODO
 - [ ] Uplink RAN Status Transfer
 - [ ] Downlink RAN Status Transfer
 
-#### 6. GNB Paging Procedures
+#### GNB Paging Procedures
 - [ ] Paging
 
-#### 7. GNB Transport of NAS Messages Procedures
+#### GNB Transport of NAS Messages Procedures
 - [x] Initial UE Message
 - [x] Downlink NAS Transport
 - [x] Uplink NAS Transport
 - [ ] NAS Non Delivery Indication
 - [x] Reroute NAS Request
 
-#### 8. GNB Interface Management Procedures
+#### GNB Interface Management Procedures
 - [x] NG Setup
 - [ ] RAN Configuration Update
 - [ ] AMF Configuration Update
@@ -69,21 +69,21 @@ TODO
 - [ ] Overload Start
 - [ ] Overload Stop
 
-#### 9. GNB Configuration Transfer Procedures
+#### GNB Configuration Transfer Procedures
 - [ ] Uplink RAN Configuration Transfer
 - [ ] Downlink RAN Configuration Transfer
 
-#### 10. GNB Warning Message Transmission Procedures
+#### GNB Warning Message Transmission Procedures
 - [ ] Write-Replace Warning
 - [ ] PWS Cancel
 - [ ] PWS Restart Indication
 - [ ] PWS Failure Indication
 
-#### 11. GNB Radio Capability Management Procedures
+#### GNB Radio Capability Management Procedures
 - [ ] UE Radio Capability Info Indication
 - [ ] UE Radio Capability Check
 
-#### 12. GNB Other Procedures
+#### GNB Other Procedures
 - [ ] NRPPa Transport
 - [ ] Trace
 - [ ] Location Reporting
