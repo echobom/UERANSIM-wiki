@@ -24,3 +24,18 @@ TODO
 - [x] UE-requested PDU Session Establishment
 - [ ] UE-requested PDU Session Modification
 - [ ] UE-requested PDU Session Release
+
+#### 4. GNB PDU Session Management Procedures
+- [x] PDU Session Resource Setup
+- [ ] PDU Session Resource Release
+- [ ] PDU Session Resource Modify
+- [ ] PDU Session Resource Notify
+- [ ] PDU Session Resource Modify Indication
+
+#### 4. GNB UE Context Management Procedures
+- [x] Initial Context Setup
+- [ ] UE Context Release Request (NG-RAN initiated)
+- [x] UE Context Release (AMF initiated)
+- [x] UE Context Modification
+- [ ] RRC Inactive Transition Report
+- [ ] PDU Session Resource Modify Indication
