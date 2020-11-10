@@ -16,3 +16,11 @@ TODO
 - [ ] Service Request
 - [ ] Paging
 - [ ] Notification
+
+#### 3. UE Session Management Procedures
+- [ ] PDU Session Authentication and Authorization
+- [ ] Network-requested PDU Session Modification
+- [ ] Network-requested PDU Session Release
+- [x] UE-requested PDU Session Establishment
+- [ ] UE-requested PDU Session Modification
+- [ ] UE-requested PDU Session Release
