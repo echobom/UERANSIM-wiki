@@ -4,5 +4,9 @@ Welcome to the UERANSIM wiki!
 
 Index:
 
-- [Feature Set: Procedures](https://github.com/aligungr/UERANSIM/wiki/Feature-Set:-Procedures)
-- [Feature Set: 5GS Security](https://github.com/aligungr/UERANSIM/wiki/Feature-Set:-5GS-Security)
+- [Home](https://github.com/aligungr/UERANSIM/wiki)
+- [Installation and Usage](https://github.com/aligungr/UERANSIM/wiki/Installation-and-Usage)
+- [FAQ](https://github.com/aligungr/UERANSIM/wiki/FAQ)
+- [Implemented Features](https://github.com/aligungr/UERANSIM/wiki/Implemented-Features)
+  - [Procedures](https://github.com/aligungr/UERANSIM/wiki/Implemented-Features:-Procedures)
+  - [Security](https://github.com/aligungr/UERANSIM/wiki/Implemented-Features:-5GS-Security)
