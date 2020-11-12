@@ -1,3 +1,8 @@
+##  Requirements
+1. Ubuntu 16.04 or later 
+2. OpenJDK 11 or later
+3. g++/gcc version 6.4.0 or later
+
 ## Dependencies
 ```
 sudo apt update
