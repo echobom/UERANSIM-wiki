@@ -1,5 +1,3 @@
-## FAQ
-
 **Q1. Why am I getting java.net.SocketException: Protocol not supported exception?**  
 
 This error usually happens if you are using some Linux VM container in Windows. Windows does not support SCTP protokol, therefore you *may* require a physical Linux machine depending on your VM choice.
