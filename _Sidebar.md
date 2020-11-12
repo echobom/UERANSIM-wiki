@@ -3,4 +3,4 @@
 - [FAQ](https://github.com/aligungr/UERANSIM/wiki/FAQ)
 - [Implemented Features](https://github.com/aligungr/UERANSIM/wiki/Implemented-Features)
   - [Procedures](https://github.com/aligungr/UERANSIM/wiki/Implemented-Features:-Procedures)
-  - [5GS Security](https://github.com/aligungr/UERANSIM/wiki/Implemented-Features:-5GS-Security)
+  - [Security](https://github.com/aligungr/UERANSIM/wiki/Implemented-Features:-5GS-Security)
