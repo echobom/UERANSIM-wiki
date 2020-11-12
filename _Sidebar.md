@@ -1,6 +1,6 @@
 - [Home](https://github.com/aligungr/UERANSIM/wiki)
 - [Installation and Usage](https://github.com/aligungr/UERANSIM/wiki/Installation-and-Usage)
 - [FAQ](https://github.com/aligungr/UERANSIM/wiki/FAQ)
-- Implemented Features:
+- [Implemented Features](https://github.com/aligungr/UERANSIM/wiki/Implemented-Features):
   - [Procedures](https://github.com/aligungr/UERANSIM/wiki/Implemented-Features:-Procedures)
   - [5GS Security](https://github.com/aligungr/UERANSIM/wiki/Implemented-Features:-5GS-Security)
