@@ -1,1 +1,2 @@
-.
+- [Procedures](https://github.com/aligungr/UERANSIM/wiki/Implemented-Features:-Procedures)
+- [Security](https://github.com/aligungr/UERANSIM/wiki/Implemented-Features:-5GS-Security)
