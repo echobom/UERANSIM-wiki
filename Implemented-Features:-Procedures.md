@@ -1,5 +1,5 @@
 
-Here's the list of currently supported and unsupported procedures of NAS/NGAP procedures.
+Here's the list of currently supported and unsupported procedures of NAS/NGAP protocol.
 
 ### UE Mobility Management Procedures
 - [x] Primary Authentication and Key Agreement
