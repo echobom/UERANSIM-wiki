@@ -1,3 +1,6 @@
+
+Here's the list of currently supported and unsupported procedures of NAS/NGAP procedures.
+
 ### UE Mobility Management Procedures
 - [x] Primary Authentication and Key Agreement
 - [x] Security Mode Control
