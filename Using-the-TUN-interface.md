@@ -6,7 +6,7 @@ In order to use the TUN interface, UERANSIM and the `tun-agent` must be running.
 
 Execute the following command to start UERANSIM:
 ```
-sh run.sh
+./run.sh
 ```
 
 Execute the following command to start `tun-agent`:
