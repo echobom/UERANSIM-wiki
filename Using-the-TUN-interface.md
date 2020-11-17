@@ -55,3 +55,13 @@ After running this command, all network traffic occurred in Firefox, will use UE
 
 **NOTE**: Please kill all Firefox processes before running the command above.
 
+---
+
+### Troubleshooting
+
+If you are not able to connect the internet, make sure following conditions are satisfied:
+
+- UERANSIM and core network successfully configured.
+- A PDU Session with IPv4 type successfully established.
+- Correct IP address of the related IPv4 PDU Session is given to `ue-binder`.
+
