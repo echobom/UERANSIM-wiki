@@ -53,7 +53,7 @@ and insert the following line to the bottom of the file:
 ```
 
 ---
-Now run this command to create a rule (Do not forget to replace {IP}, and also you can execute multiple times in order to add  rules for multiple IP addresses):
+Now run this command to create a rule and also you can execute multiple times in order to add rules for multiple IP addresses:
 
 ```
 sudo ip rule add from {IP} table uesimtable
