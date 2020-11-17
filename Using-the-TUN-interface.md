@@ -29,7 +29,7 @@ If you want to manually utilize the interface, just bind your TCP/IP socket to `
 
 ### Using the TUN via Another Application
 
-You can bind the `uesimtun` interface to almost any application using `ue-bind.sh` tool.
+You can bind the `uesimtun` interface to almost any application using `ue-bind.sh` tool (located at `build/`).
 
 Usage:
 
