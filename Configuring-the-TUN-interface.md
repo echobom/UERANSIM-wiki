@@ -18,8 +18,13 @@ sudo ip addr add {IP} dev uesimtun
 
 For example:
 
+```
+sudo ip addr add 10.45.0.2 dev uesimtun
+sudo ip addr add 10.45.0.3 dev uesimtun
+sudo ip addr add 10.45.0.4 dev uesimtun
+```
 
-**Important Warning:** Make sure that no other interface in your system uses the same IP address. For example Open5GS, free5gc and other core networks may have their own TUN interface. Using both UERANSIM and core networks in same environment may cause problems.
+**Warning:** Better to make sure that no other interface in your system uses the same IP address. For example Open5GS, free5gc and other core networks may have their own TUN interface. Using both UERANSIM and core networks in same environment **may** cause problems.
 
 ---
 
@@ -31,7 +36,7 @@ sudo ip link set uesimtun up
 ---
 ## 4. Configure Routing
 
-Now we need to create a routing table called `uesimtable` if not exist. Use `nano` or `echo` to create the table.
+Now we need to create a routing table called `uesimtable` **if not exist**. Use `nano` or `echo` to create the table.
 
 Run:
 ```
@@ -49,8 +54,15 @@ Now run this command to create a rule (Do not forget to replace {IP}, and also y
 ```
 sudo ip rule add from {IP} table uesimtable
 ```
+For example:
 
-You can validate it with `sudo ip rule`
+```
+sudo ip rule add from 10.45.0.2 table uesimtable
+sudo ip rule add from 10.45.0.3 table uesimtable
+sudo ip rule add from 10.45.0.4 table uesimtable
+```
+
+(You can validate it with `sudo ip rule`)
 
 ---
 
@@ -59,6 +71,10 @@ Now run this command to create a route:
 sudo ip route add default dev uesimtun table uesimtable
 ```
 
-You can validate it with `sudo ip route list table uesimtable`
+(You can validate it with `sudo ip route list table uesimtable`)
 
 ---
+
+## 5. Done
+
+Configuring the TUN interface is done, now you can use the interface.
