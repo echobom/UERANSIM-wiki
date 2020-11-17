@@ -1,3 +1,7 @@
+In order to configure the TUN interface, please follow the instructions in order.
+
+**NOTE:** These settings are not preserved after restarting the Linux computer.
+
 ## 1. Create TUN Device
 
 In order to create TUN device, run the following commands:
