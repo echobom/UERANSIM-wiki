@@ -63,5 +63,5 @@ If you are not able to connect the internet, make sure following conditions are 
 
 - UERANSIM and core network successfully configured.
 - A PDU Session with IPv4 type successfully established.
-- Correct IP address of the related IPv4 PDU Session is given to `ue-binder`.
+- IP address given to `ue-binder` is exactly same with the IP address of the related IPv4 PDU Session.
 
