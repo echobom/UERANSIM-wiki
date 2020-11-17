@@ -82,3 +82,5 @@ sudo ip route add default dev uesimtun table uesimtable
 ## 5. Done
 
 Configuring the TUN interface is done, now you can use the interface.
+
+[Using the TUN interface](https://github.com/aligungr/UERANSIM/wiki/Using-the-TUN-interface)
