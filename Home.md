@@ -2,7 +2,6 @@ Welcome to the UERANSIM wiki!
 
 Index:
 
-- [Home](https://github.com/aligungr/UERANSIM/wiki)
 - [Installation and Usage](https://github.com/aligungr/UERANSIM/wiki/Installation-and-Usage)
 - [Using Data-Plane Features](https://github.com/aligungr/UERANSIM/wiki/Using-Data-Plane-Features)
   - [Configuring the TUN interface](https://github.com/aligungr/UERANSIM/wiki/Configuring-the-TUN-interface)
