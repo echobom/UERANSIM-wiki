@@ -1,7 +1,5 @@
 Welcome to the UERANSIM wiki!
 
-**NOTE:** This wiki is not complete yet.
-
 Index:
 
 - [Home](https://github.com/aligungr/UERANSIM/wiki)
