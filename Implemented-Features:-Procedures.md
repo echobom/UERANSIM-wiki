@@ -55,7 +55,7 @@ Here's the list of currently supported and unsupported procedures of NAS/NGAP pr
 - [x] Initial UE Message
 - [x] Downlink NAS Transport
 - [x] Uplink NAS Transport
-- [ ] NAS Non Delivery Indication
+- [x] NAS Non Delivery Indication
 - [x] Reroute NAS Request
 
 ### GNB Interface Management Procedures
