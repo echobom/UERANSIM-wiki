@@ -1,3 +1,5 @@
+Firstly, please make sure that you have the latest [version](https://github.com/aligungr/UERANSIM/releases) of UERANSIM.
+
 ##  Requirements
 1. Ubuntu 16.04 or later 
 2. OpenJDK 11 or later
