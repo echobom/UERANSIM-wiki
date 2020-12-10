@@ -24,3 +24,5 @@ This UERANSIM specific coding style guideline shall be used inside of the UERANS
 - Use **var** except for primitive types or arrays of primitive types.
     - **✖** `String arr = "string";`
     - **✓** `var arr = "string";`
+    - **✖** `var num = 2;`
+    - **✓** `int num = 2;`
