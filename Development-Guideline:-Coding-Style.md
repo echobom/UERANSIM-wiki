@@ -13,3 +13,6 @@ This UERANSIM specific coding style guideline should be used inside of UERANSIM 
 - Use **PascalCase** for acronyms.
     - **✖** `getUEAssociatedPDU`
     - **✓** `getUeAssociatedPdu`
+- Insert at least one space at the beginning of the comments.
+    - **✖** `//An example comment.`
+    - **✓** `// An example comment.`
