@@ -10,6 +10,9 @@ This UERANSIM specific coding style guideline should be used inside of UERANSIM 
 - Use **static** and **final** wherever possible.
 - Always use **immutable types** except you can't.
 - Use package-private whenever possible.
+- Use **PascalCase** for acronyms.
+    - **✖** `getUEAssociatedPDU`
+    - **✓** `getUeAssociatedPdu`
 
 ### C and C++ Guidelines
 - Prefer **C++** over C.
