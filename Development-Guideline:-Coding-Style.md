@@ -11,8 +11,6 @@ This UERANSIM specific coding style guideline should be used inside of UERANSIM 
 - Always use **immutable types** except you can't.
 - Use package-private whenever possible.
 
-
-
 ### C and C++ Guidelines
 - Prefer **C++** over C.
 - C++ header files must have `".hpp"` file extension instead of `".h"`
