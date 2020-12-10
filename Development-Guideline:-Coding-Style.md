@@ -3,7 +3,7 @@ This UERANSIM specific coding style guideline shall be used inside of UERANSIM p
 ### JAVA Guidelines
 
 - Do **not** use Java-style getter and setter methods. Use **public** fields instead. Use getters and setters if and only if there is a business logic behind it.
-- **Never** use Java 8 concurrent programming procedures. Use NTS architecture instead.
+- **Never** use Java 8 concurrent programming procedures. Use our NTS architecture instead.
 - Prefix all interfaces with `"I"`.
     - **✖** `public interface MyInterface`
     - **✓**    `public interface IMyInterface`
