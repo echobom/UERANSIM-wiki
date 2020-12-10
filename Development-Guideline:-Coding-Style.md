@@ -18,3 +18,6 @@ This UERANSIM specific coding style guideline shall be used inside of UERANSIM p
 - Insert at least one space at the beginning of the comments.
     - **✖** `//An example comment.`
     - **✓** `// An example comment.`
+- Separate usual tokens with whitespace.
+    - **✖** `for(int i=0;i< 5; i++)`
+    - **✓** `for (int i = 0; i < 5; i++)`
