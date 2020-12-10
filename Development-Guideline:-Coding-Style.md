@@ -1,4 +1,4 @@
-This UERANSIM specific coding style guideline should be used inside of UERANSIM project.
+This UERANSIM specific coding style guideline shall be used inside of UERANSIM project.
 
 ### JAVA Guidelines
 
