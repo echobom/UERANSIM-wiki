@@ -2,6 +2,7 @@ This UERANSIM specific coding style guideline shall be used inside of UERANSIM p
 
 ### JAVA Guidelines
 
+- Use **4-space** indentation.
 - Do **not** use Java-style getter and setter methods. Use **public** fields instead. Use getters and setters if and only if there is a business logic behind it.
 - Do **not** use Java checked exceptions. Use **unchecked** ones instead.
 - **Never** use Java 8 concurrent programming procedures. Use our NTS architecture instead.
