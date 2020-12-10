@@ -11,7 +11,7 @@ This UERANSIM specific coding style guideline shall be used inside of the UERANS
     - **✓**    `public interface IMyInterface`
 - Use **static** and **final** wherever possible. (For both fields and inner classes)
 - Always use **immutable types** except you can't.
-- Use package-private whenever possible.
+- Use private or package-private whenever possible.
 - Use **PascalCase** for acronyms.
     - **✖** `getUEAssociatedPDU`
     - **✓** `getUeAssociatedPdu`
