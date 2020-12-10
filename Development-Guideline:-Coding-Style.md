@@ -21,3 +21,6 @@ This UERANSIM specific coding style guideline shall be used inside of UERANSIM p
 - Separate usual tokens with whitespace.
     - **✖** `for(int i=0;i< 5; i++)`
     - **✓** `for (int i = 0; i < 5; i++)`
+- Use **var** except for primitive types or arrays of primitive types.
+    - **✖** `String[] arr = { "1", "2" };`
+    - **✓** `var arr = { "1", "2" };`
