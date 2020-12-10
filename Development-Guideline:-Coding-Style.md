@@ -14,4 +14,6 @@ This UERANSIM specific coding style guideline should be used inside of UERANSIM 
 
 
 ### C and C++ Guidelines
-- TODO
+- Prefer **C++** over C.
+- C++ header files must have `".hpp"` file extension instead of `".h"`
+- All header files must start with `#pragma once` directive.
