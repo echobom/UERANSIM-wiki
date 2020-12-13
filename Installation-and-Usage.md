@@ -50,3 +50,25 @@ sudo apt install libsctp-dev lksctp-tools
 
 ---
 
+## CLI Commands
+
+```
+Usage: nr-cli [-hV] [COMMAND]
+  -h, --help      Show this help message and exit.
+  -V, --version   Print version information and exit.
+Commands:
+  gnb-create      Create and initialize a new GNB
+  ue-create       Create and initialize a new UE
+  gnb-list        List all the gNBs associated with this UERANSIM agent
+  ue-list         List all the UEs associated with this UERANSIM agent
+  gnb-status      Dump some information about specified gNB's general status
+  ue-status       Dump some information about specified UE's general status
+  session-create  Trigger a PDU session establishment for a specified UE
+  ue-ping         Trigger a ping request for the specified UE
+  ue-deregister   Trigger a de-registration for the specified UE
+
+```
+
+You can also run `-h` or `--help` options to see more detailed help about sub commands. 
+
+For example: `./nr-cli gnb-create --help`, or `./nr-cli session-create --help` etc.
