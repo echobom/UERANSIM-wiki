@@ -108,3 +108,13 @@ Here's a typical usage example.
 8. Ping google.com by the UE.
 
 `./nr-cli ue-ping [imsi] google.com -c 3`
+
+---
+
+Please always check the terminal for `nr-agent` to see logs realtime. And in order to see more detailed logs check `logs/` folder.
+
+If you encounter a problem feel free to open an issue.
+
+Next Step:
+
+[Using Data Plane Features](https://github.com/aligungr/UERANSIM/wiki/Using-Data-Plane-Features)
