@@ -24,7 +24,7 @@ sudo apt install libsctp-dev lksctp-tools
 1. Make sure that `JAVA_HOME` variable is set.
 2. Run the following command:
     ```
-    ./build.sh
+    ./nr-build
     ```
 
 ---
