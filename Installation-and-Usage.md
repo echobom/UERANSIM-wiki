@@ -75,6 +75,8 @@ For example: `./nr-cli gnb-create --help`, or `./nr-cli session-create --help` e
 
 ## Example Usage
 
+Here's a typical usage example.
+
 1. Start UERANSIM agent
 
 `./nr-agent`
