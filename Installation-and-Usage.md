@@ -26,13 +26,13 @@ sudo apt install libsctp-dev lksctp-tools
 ## Configuring
 1. Select a configuration profile by modifying `config/profile.yaml`.
 2. Go to the `gnb.yaml` of your profile, and set `host` and `amfHost` addresses.
-3. You may need to further modify the profile configurations for `ue.yaml`, `gnb.yaml` etc.
+3. (Optional) You may need to further modify the profile configurations for `ue.yaml`, `gnb.yaml` etc.
 
 ## Running
 1. Execute `./run.sh` to start the application.
 2. Use `tail -f` to monitor logs realtime located at `logs/*.log`.
 3. Use terminal to trigger test events such as `initial-registration`
 
-## Mandatory Configurations
+## NOTES
 
 **Important:** Changing the `host` and `amfHost` parameters in `gnb.yaml` file is almost always required. Please make sure that you set `host` as the gNB's IP address, and the related AMF IP address correctly.
