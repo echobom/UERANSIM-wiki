@@ -4,12 +4,7 @@ First of all please make sure that you have cloned and built the latest version 
 
 In order to use the TUN interface, UERANSIM and the `tun-agent` must be running.
 
-Execute the following command to start UERANSIM:
-```
-./run.sh
-```
-
-Execute the following command to start `tun-agent`:
+Firstly start UERANSIM, then execute the following command to start `tun-agent`:
 
 ```
 sudo ./build/tun-agent
