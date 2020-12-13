@@ -23,13 +23,15 @@ sudo apt install libsctp-dev lksctp-tools
     ./build.sh
     ```
 
+## Configuring
+1. Select a configuration profile by modifying `config/profile.yaml`.
+2. Go to the `gnb.yaml` of your profile, and set `host` and `amfHost` addresses.
+3. You may need to further modify the profile configurations for `ue.yaml`, `gnb.yaml` etc.
 
 ## Running
-1. Select a configuration profile by modifying `config/profile.yaml`.
-2. You may need to further modify the profile configurations for IP addresses and port numbers etc. (see `config/open5gs`, `config/free5gc`, etc.)
-3. Execute `./run.sh` to start the application.
-4. Use `tail -f` to monitor logs realtime located at `logs/*.log`.
-5. Use terminal to trigger test events such as `initial-registration`
+1. Execute `./run.sh` to start the application.
+2. Use `tail -f` to monitor logs realtime located at `logs/*.log`.
+3. Use terminal to trigger test events such as `initial-registration`
 
 ## Mandatory Configurations
 
