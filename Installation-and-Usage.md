@@ -105,6 +105,6 @@ Here's a typical usage example.
 
 `./nr-cli ue-status [imsi]`
 
-8. Ping google.com for example using the UE.
+8. Ping google.com by the UE.
 
 `./nr-cli ue-ping [imsi] google.com -c 3`
