@@ -35,4 +35,6 @@ sudo apt install libsctp-dev lksctp-tools
 
 ## Notes
 
-**Important:** Changing the `host` and `amfHost` parameters in `gnb.yaml` file is almost always required. Please make sure that you set `host` as the gNB's IP address, and the `amfHost` as the related AMF IP address correctly.
+**Note 1)** Changing the `host` and `amfHost` parameters in `gnb.yaml` file is almost always required. Please make sure that you set `host` as the gNB's IP address, and the `amfHost` as the related AMF IP address correctly.
+
+**Note 2)** Our UE accepts `OP` instead of `OPC`, so make sure that you have `OP` value in `ue.yaml`
