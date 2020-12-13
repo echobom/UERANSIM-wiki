@@ -45,9 +45,8 @@ sudo apt install libsctp-dev lksctp-tools
 ---
 
 ## Running
-1. Execute `./run.sh` to start the application.
-2. Use `tail -f` to monitor logs realtime located at `logs/*.log`.
-3. Use terminal to trigger test events such as `initial-registration`
+1. Execute `./nr-agent` to start the UERANSIM agent.
+2. Then you can start using `./nr-cli`.
 
 ---
 
