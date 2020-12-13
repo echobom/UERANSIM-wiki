@@ -33,6 +33,6 @@ sudo apt install libsctp-dev lksctp-tools
 2. Use `tail -f` to monitor logs realtime located at `logs/*.log`.
 3. Use terminal to trigger test events such as `initial-registration`
 
-## NOTES
+## Notes
 
-**Important:** Changing the `host` and `amfHost` parameters in `gnb.yaml` file is almost always required. Please make sure that you set `host` as the gNB's IP address, and the related AMF IP address correctly.
+**Important:** Changing the `host` and `amfHost` parameters in `gnb.yaml` file is almost always required. Please make sure that you set `host` as the gNB's IP address, and the `amfHost` as the related AMF IP address correctly.
