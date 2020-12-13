@@ -69,7 +69,7 @@ Commands:
 
 ```
 
-You can also run `-h` or `--help` options to see more detailed help about sub commands. 
+You can also run `-h` or `--help` options to see more detailed help about subcommands. 
 
 For example: `./nr-cli gnb-create --help`, or `./nr-cli session-create --help` etc.
 
