@@ -112,7 +112,6 @@ Here's a typical usage example.
 ---
 
 Please always check the terminal for `nr-agent` to see logs realtime, and for more detailed logs see the `logs/` folder. 
-If you encounter a problem feel free to open an issue. 
 
 Next Steps:
 [Using Data Plane Features](https://github.com/aligungr/UERANSIM/wiki/Using-Data-Plane-Features)
