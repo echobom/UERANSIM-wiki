@@ -72,3 +72,37 @@ Commands:
 You can also run `-h` or `--help` options to see more detailed help about sub commands. 
 
 For example: `./nr-cli gnb-create --help`, or `./nr-cli session-create --help` etc.
+
+## Example Usage
+
+1. Start UERANSIM agent
+
+`./nr-agent`
+
+2. Create a new gNB
+
+`./nr-cli gnb-create`
+
+3. Create a new UE
+
+`./nr-cli ue-create`
+
+4. List the UEs
+
+`./nr-cli ue-list`
+
+5. Check the UE status.
+
+`./nr-cli ue-status [imsi]`
+
+6. Create a new PDU session.
+
+`./nr-cli session-create [imsi]`
+
+7. Check the UE status again if you want to see the PDU session.
+
+`./nr-cli ue-status [imsi]`
+
+8. Ping google.com for example using the UE.
+
+`./nr-cli ue-ping [imsi] google.com -c 3`
