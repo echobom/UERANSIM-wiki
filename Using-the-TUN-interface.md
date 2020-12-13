@@ -12,7 +12,7 @@ sudo ./build/tun-agent
 
 And at least one PDU Session is required (for sure). Therefore make sure that you have successfully established a PDU Session using UERANSIM agent.
 
-*NOTE*: UERANSIM and TUN agents should remain open. Restarting UERANSIM requires another establishment of a PDU Session.
+**NOTE**: UERANSIM and TUN agents should remain open. Restarting UERANSIM requires another establishment of a PDU Session.
 
 ---
 
