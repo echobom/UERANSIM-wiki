@@ -9,7 +9,7 @@ This UERANSIM specific coding style guideline shall be used inside of the UERANS
 - Prefix all interfaces with `"I"`.
     - **✖** `public interface MyInterface`
     - **✓**    `public interface IMyInterface`
-- Use **static** and **final** wherever possible. (For both fields and inner classes)
+- Use **static** and **final** wherever possible. (For both fields and inner classes, but not for parameters)
 - Always use **immutable types** except you can't.
 - Use private or package-private whenever possible.
 - Use **PascalCase** for acronyms.
