@@ -14,7 +14,7 @@ sudo ip tuntap add name uesimtun mode tun
 
 ## 2. Add IP to the TUN
 
-You need to replace {IP} with UE's IP given by core network. You can also execute multiple times to add multiple IP addreses.
+You need to replace `{IP}` with UE's IP given by core network. You can also execute multiple times to add multiple IP addreses.
 
 ```
 sudo ip addr add {IP} dev uesimtun
