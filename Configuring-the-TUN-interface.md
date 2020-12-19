@@ -4,7 +4,7 @@ In order to configure the TUN interface, please follow the instructions in order
 
 ## 1. Create the TUN Device
 
-In order to create TUN device, run the following commands:
+In order to create the TUN device, run the following commands:
 
 ```
 sudo ip tuntap add name uesimtun mode tun
