@@ -33,7 +33,7 @@ etc. However we also provide our experimental `./nr-binder` tool to utilize UE's
 
 You can bind the `uesimtunX` interface to almost any application using `./nr-binder` tool.
 
-**NOTE:** `./nr-binder` is **experimental** and may not work for some applications.
+**NOTE:** `./nr-binder` is experimental and may not work for some applications.
 
 Usage:
 
