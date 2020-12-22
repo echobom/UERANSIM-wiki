@@ -26,7 +26,3 @@ sudo apt install g++
 ``` 
 
 ---
-
-**Q4. How to increase the number of UE and RANs?**
-
-In order to increase the number of UEs, you can change the `number-of-UE` value in `config/testing.yaml`. If you want to increase RAN count, you can run multiple instance of UERANSIM on multiple machines.
