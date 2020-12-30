@@ -2,7 +2,7 @@ This UERANSIM specific coding style guideline shall be used inside of the UERANS
 
 ### C++ Guidelines
 
-- Use Microsoft's C++ coding guidelines, with following exceptions:
+- Use [Microsoft](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options?view=vs-2017)'s C++ coding guidelines, with following exceptions:
     - `AlwaysBreakTemplateDeclarations: Yes`
 
 ### JAVA Guidelines
