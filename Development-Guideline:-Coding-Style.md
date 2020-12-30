@@ -1,5 +1,9 @@
 This UERANSIM specific coding style guideline shall be used inside of the UERANSIM project.
 
+### C++ Guidelines
+
+- Use Microsoft's C++ coding guidelines, except use `AlwaysBreakTemplateDeclarations: Yes`
+
 ### JAVA Guidelines
 
 - Use **4-space** indentation.
@@ -26,7 +30,3 @@ This UERANSIM specific coding style guideline shall be used inside of the UERANS
     - **✓** `var arr = "string";`
     - **✖** `var num = 2;`
     - **✓** `int num = 2;`
-
-### C++ Guidelines
-
-- Use Microsoft's C++ coding guidelines, except use `AlwaysBreakTemplateDeclarations: Yes`
