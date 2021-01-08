@@ -7,7 +7,7 @@ After successful establishment of a PDU session, the UE automatically performs t
 
 **NOTE 1:** You can start UERANSIM with `--no-route-config` if you don't want the automatic routing configurations (item 2). However TUN interface is always created after a PDU session establishment (item 1).
 
-**NOTE 2:** Using UE/gNB and Core Network on the same computer is likely to cause problems. We strongly suggest the usage of 2 different machines (virtual or non-virtual).
+**NOTE 2:** Using UE/gNB and Core Network on the same computer is likely to cause problems. We strongly suggest the usage of 2 different machines one for UERANSIM and one for core network. (You can use virtual machines or non-virtual machines, it usually does not matter.)
 
 Next Steps:
 [Using the TUN interface](https://github.com/aligungr/UERANSIM/wiki/Using-the-TUN-interface)
