@@ -16,6 +16,7 @@ sudo apt install g++
 sudo apt install openjdk-11-jdk
 sudo apt install maven
 sudo apt install libsctp-dev lksctp-tools
+sudo apt install iproute2
 ```
 
 ---
