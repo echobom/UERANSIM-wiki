@@ -2,7 +2,7 @@ First of all please make sure that you have cloned and built the latest version 
 
 ### Before Using the TUN Interface
 
-In order to use the TUN interface, UERANSIM must be running. And at least one PDU session is required (for sure). Therefore make sure that you have successfully established a PDU Session using UERANSIM agent.
+In order to use the TUN interface, UERANSIM must be running (both UE and gNB). And at least one PDU session is required (for sure). Therefore make sure that you have successfully established a PDU Session using UERANSIM.
 
 **NOTE**: UERANSIM should remain open. Restarting UERANSIM requires another establishment of a PDU session.
 
