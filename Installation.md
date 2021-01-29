@@ -64,3 +64,7 @@ And that's it. After successfully compiling the project, output binaries will be
 Run `nr-gnb` and `nr-ue` to start using UE and gNB. More details about them can be found in next steps.
 
 `nr-binder` and `libdevbnd.so` are only required for binding UEs internet connectivity to an arbitrary application, and generally not used.
+
+### Next Steps
+
+[Configuration](Configuration)
