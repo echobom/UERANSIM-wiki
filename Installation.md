@@ -54,7 +54,7 @@ cd ~/UERANSIM
 make
 ```
 
-After successfully compiling the project, output binaries will be copied to `~/UERANSIM/build` folder. And you should see the following files:
+And that's it. After successfully compiling the project, output binaries will be copied to `~/UERANSIM/build` folder. And you should see the following files:
 
 1. **nr-gnb** | Main executable for 5G-SA gNB (RAN)
 2. **nr-ue** | Main executable for 5G-SA UE
