@@ -45,3 +45,62 @@ A TUN interface is setup for each PDU session. After successful establishment of
 
 **NOTE:** Using UE and Core Network on the same computer usually causes problems. Please use 2 different machines for UERANSIM and core network. (You can use virtual machines or non-virtual machines.)
 
+### Using the TUN Interface
+
+If you want to manually utilize the interface, just bind your TCP/IP socket to `uesimtunX` interface.
+
+For example:
+
+```
+ping -I uesimtun0 google.com
+```
+
+or
+
+
+```
+sudo curl --interface uesimtun0 google.com
+```
+
+etc. However we also provide our experimental `./nr-binder` tool to utilize UE's connection easily.
+
+### Using the TUN via `./nr-binder`
+
+You can bind the `uesimtunX` interface to almost any application using `./nr-binder` tool.
+
+**NOTE:** Automatic routing configurations must be enabled for using `./nr-binder`. i.e. don't start the UE with `--no-routing-config` if you want to use `nr-binder` feature.
+
+**NOTE:** `./nr-binder` is experimental and may not work for some applications.
+
+Usage:
+
+```
+./nr-binder {IP} {COMMAND} {ARGS}
+```
+
+For example:
+
+```
+./nr-binder 10.45.0.2 curl google.com
+```
+
+In this way, `curl` command will use UE's internet connection with IP `10.45.0.2`
+
+You can also use web browsers such as Firefox. For example:
+
+```
+./nr-binder 10.45.0.2 firefox
+```
+
+After running this command, all network traffic occurred in Firefox, will use UE's internet connectivity.
+
+**NOTE**: Please kill all Firefox processes before running the command above.
+
+### Troubleshooting
+
+If you are not able to connect to the internet, make sure that the following conditions are satisfied:
+
+- UERANSIM and core network successfully configured.
+- A PDU Session is successfully established.
+- IP address given to `nr-binder` is exactly same with the IP address of the related IP PDU Session.
+
