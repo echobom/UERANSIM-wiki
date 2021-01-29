@@ -12,7 +12,7 @@ If you want to contribute to the UERANSIM. Here you can find some development gu
 
 All of the 5G with all internals are designed and defined by international 3GPP organization. Our ultimate references for 5G implementation are these documents. Here's the list of technical specifications often used by UERANSIM:
 
-- [TS 23.501]() : System architecture for the 5G System
+- [TS 23.501](https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/15.12.00_60/ts_123501v151200p.pdf) : System architecture for the 5G System
 - [TS 23.502]() : Procedures for the 5G System
 - [TS 24.501]() : Non-Access-Stratum (NAS) protocol for 5G System
 - [TS 33.501]() : Non-Access-Stratum (NAS) protocol for 5G System
