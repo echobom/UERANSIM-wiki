@@ -53,6 +53,6 @@ cd ~/UERANSIM/build
   `UDP` protocol with assigned port number `2152` is used between gNB and UPF.
   `UDP` based another protocol with assigned port number `4997` is used between gNB and UE.
 
-### Next Steps:
+### Next Steps
 
 [Usage](Usage)
