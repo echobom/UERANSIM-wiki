@@ -15,6 +15,8 @@ An example command line for using sample configurations:
 
 ```
 cd ~/UERANSIM/build
+
+./nr-gnb -c ../config/open5gs-gnb.yaml
 ./nr-ue -c ../config/open5gs-ue.yaml
 ```
 
