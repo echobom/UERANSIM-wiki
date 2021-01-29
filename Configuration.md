@@ -1,6 +1,6 @@
 ### Overview
 
-Configuration is the most important part, and almost all of the problems are caused by an incorrect configuration.
+Configuration is the most important part, and almost all of the problems are caused by an incorrect configuration (either UERANSIM or core network side).
 
 `nr-ue` accepts a UE configuration file as a parameter, and `nr-gnb` accepts a gNB configuration file as a parameter. The syntax is the following:
 
