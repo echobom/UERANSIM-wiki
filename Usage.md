@@ -1,4 +1,4 @@
-### Usage
+### Basic Usage
 
 After completing configurations and setups, now you can start using UERANSIM.
 
@@ -31,3 +31,7 @@ or
 ```
 nr-ue -c myconfig.yaml -n 10 -i imsi-286010000000001
 ```
+
+### Usage of the Data Plane
+
+TODO
