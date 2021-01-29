@@ -32,4 +32,6 @@ cd ~/UERANSIM/build
 - **slices:** List of requested NSSAIs by this UE. This field is explained above, except this time `slices` parameter itself is not optional. (`sd` is still optional but `sst` is required.)
 - **integrity/ciphering:** Here you can set supported integrity and ciphering algorithm for this specific UE. Normally UERANSIM supports all of the algorithms but you can disable it some of them manually by this configuration.
 
+### gNB Configuration
+
 TODO
