@@ -43,4 +43,4 @@ A TUN interface is setup for each PDU session. After successful establishment of
 
 **NOTE:** You can start the UE with `nr-ue --no-route-config` if you don't want the automatic routing configurations (item 2). However TUN interface is always created after a PDU session establishment (item 1).
 
-**NOTE:** Using UE and Core Network on the same computer usually causes problems. Please use 2 different machines for UERANSIM and core network. (You can use virtual machines or non-virtual machines)
+**NOTE:** Using UE and Core Network on the same computer usually causes problems. Please use 2 different machines for UERANSIM and core network. (You can use virtual machines or non-virtual machines.)
