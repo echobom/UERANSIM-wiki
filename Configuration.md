@@ -27,5 +27,6 @@ cd ~/UERANSIM/build
 - **op:** Operator code value (in either OP or OPC) must be written here. You should set **opType** as **OP** if you write an OP value here, and you should set **opType** as **OPC** if you write an OPC value here. You can either use OP or OPC keys.
 - **amf:** Authentication Management Field (AMF) must be written here. Note that this is a different thing from core network function AMF (Access and Mobility Management Function)
 - **imei:** IMEI number of the device. IMEI is used if no SUPI provided and for emergency registration etc. This value is generally not used. And this is the only field that is not much important. All other fields must be set precisely.
+- **gnbSearchList:** This is the list of IP addresses of gNB for radio link simulation. You can write multiple IP addresses for multiple gNBs. UE will try to pick some gNB from this list. The IP address must match with `linkIp` parameter in the gNB config file. Otherwise UE cannot connect to the gNB. By default we wrote `127.0.0.1` in the sample configuration files, but change this and `linkIp` parameter according to your environment if you use UE and gNB in different machines.
 
 TODO
