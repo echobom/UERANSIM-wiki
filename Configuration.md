@@ -45,3 +45,14 @@ cd ~/UERANSIM/build
 - **amfConfigs:** List of AMF IP address and port information for N2 (NGAP) interface. This is the other endpoint of what you set in `ngapIp` address. This time you should set this value as AMF's IP address. By default we wrote `127.0.0.X` in the sample configuration files, but change this according to your environment if you use gNB and AMF in different machines. This value is normally a list, but currently only first specified AMF is used. More complex AMF selection mechanism will be implemented in the future.
 - **slices:** This field is explained in the UE configurations. And it is the supported list of slices by the gNB.
 - **ignoreStreamIds:** Some core networks may not handle SCTP stream numbers properly. Set this field to `true` if you want to ignore such errors. If you are using `open5gs` or `free5gc`, you should set this value to `true`.
+
+### Environment
+
+- Make sure that all of the nodes in your setup (UE, gNB, and core network) can connect to each other over the network, and some firewall rule does not block the 5G traffic between nodes.
+- `SCTP` protocol with default port number `38412` is used between gNB and AMF.
+  `UDP` protocol with assigned port number `2152` is used between gNB and UPF.
+  `UDP` based another protocol with assigned port number `4997` is used between gNB and UE.
+
+### Next Steps:
+
+[Usage](Usage)
