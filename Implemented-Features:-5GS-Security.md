@@ -1,4 +1,4 @@
-Here's the currently supported and unsupported ciphering and integrity algorithms used in 5GS
+Here's the supported ciphering and integrity algorithms used in 5GS
 
 ### Ciphering Algorithms
 - [x] NEA1
