@@ -21,12 +21,12 @@ All of the 5G with all internals are designed and defined by international 3GPP 
 - [TS 38.322](https://www.etsi.org/deliver/etsi_ts/138300_138399/138322/16.01.00_60/ts_138322v160100p.pdf) : NR; Radio Link Control (RLC) protocol specification
 - [TS 38.323](https://www.etsi.org/deliver/etsi_ts/138300_138399/138323/16.02.00_60/ts_138323v160200p.pdf) : NR; Packet Data Convergence Protocol (PDCP) specification
 - [TS 38.331](https://www.etsi.org/deliver/etsi_ts/138300_138399/138331/15.12.00_60/ts_138331v151200p.pdf) : NR; Radio Resource Control (RRC); Protocol specification
-- [TS 38.401]() : NG-RAN; Architecture description
-- [TS 38.410]() : NG-RAN; NG general aspects and principles
-- [TS 38.411]() : NG-RAN; NG layer 1
-- [TS 38.412]() : NG-RAN; NG signalling transport
-- [TS 38.413]() : NG-RAN; NG Application Protocol (NGAP)
-- [TS 38.414]() : NG-RAN; NG data transport
-- [TS 38.415]() : NG-RAN; PDU session user plane protocol
+- [TS 38.401](https://www.etsi.org/deliver/etsi_ts/138400_138499/138401/16.04.00_60/ts_138401v160400p.pdf) : NG-RAN; Architecture description
+- [TS 38.410](https://www.etsi.org/deliver/etsi_ts/138400_138499/138410/16.03.00_60/ts_138410v160300p.pdf) : NG-RAN; NG general aspects and principles
+- [TS 38.411](https://www.etsi.org/deliver/etsi_ts/138400_138499/138411/16.00.00_60/ts_138411v160000p.pdf) : NG-RAN; NG layer 1
+- [TS 38.412](https://www.etsi.org/deliver/etsi_ts/138400_138499/138412/16.01.00_60/ts_138412v160100p.pdf) : NG-RAN; NG signalling transport
+- [TS 38.413](https://www.etsi.org/deliver/etsi_ts/138400_138499/138413/15.06.00_60/ts_138413v150600p.pdf) : NG-RAN; NG Application Protocol (NGAP)
+- [TS 38.414](https://www.etsi.org/deliver/etsi_ts/138400_138499/138414/16.00.00_60/ts_138414v160000p.pdf) : NG-RAN; NG data transport
+- [TS 38.415](https://www.etsi.org/deliver/etsi_ts/138400_138499/138415/16.03.00_60/ts_138415v160300p.pdf) : NG-RAN; PDU session user plane protocol
 
 We currently use release-15 for 3GPP specifications, and have a plan to switch to release-16 in the future.
