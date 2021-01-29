@@ -1,3 +1,3 @@
 Welcome to the UERANSIM wiki!
 
-You can start from sidebar.
+You can start from [Installation](Installation).
