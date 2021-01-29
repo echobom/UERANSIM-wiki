@@ -12,20 +12,21 @@ If you want to contribute to the UERANSIM. Here you can find some development gu
 
 All of the 5G with all internals are designed and defined by international 3GPP organization. Our ultimate references for 5G implementation are these documents. Here's the list of technical specifications often used by UERANSIM:
 
-- [TS 23.501]()
-- [TS 23.502]()
-- [TS 24.501]()
-- [TS 38.300]()
-- [TS 38.304]()
-- [TS 38.322]()
-- [TS 38.323]()
-- [TS 38.331]()
-- [TS 38.401]()
-- [TS 38.410]()
-- [TS 38.411]()
-- [TS 38.412]()
-- [TS 38.413]()
-- [TS 38.414]()
-- [TS 38.415]()
+- [TS 23.501]() : System architecture for the 5G System
+- [TS 23.502]() : Procedures for the 5G System
+- [TS 24.501]() : Non-Access-Stratum (NAS) protocol for 5G System
+- [TS 33.501]() : Non-Access-Stratum (NAS) protocol for 5G System
+- [TS 38.300]() : Security architecture and procedures for 5G System
+- [TS 38.304]() : NR; User Equipment (UE) procedures in idle mode and in RRC Inactive state
+- [TS 38.322]() : NR; Radio Link Control (RLC) protocol specification
+- [TS 38.323]() : NR; Packet Data Convergence Protocol (PDCP) specification
+- [TS 38.331]() : NR; Radio Resource Control (RRC); Protocol specification
+- [TS 38.401]() : NG-RAN; Architecture description
+- [TS 38.410]() : NG-RAN; NG general aspects and principles
+- [TS 38.411]() : NG-RAN; NG layer 1
+- [TS 38.412]() : NG-RAN; NG signalling transport
+- [TS 38.413]() : NG-RAN; NG Application Protocol (NGAP)
+- [TS 38.414]() : NG-RAN; NG data transport
+- [TS 38.415]() : NG-RAN; PDU session user plane protocol
 
 We currently use release-15 for 3GPP specifications, and have a plan to switch to release-16 in the future.
