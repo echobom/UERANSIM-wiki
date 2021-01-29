@@ -1,2 +1,0 @@
-- [Procedures](https://github.com/aligungr/UERANSIM/wiki/Implemented-Features:-Procedures)
-- [Misc](https://github.com/aligungr/UERANSIM/wiki/Implemented-Features:-Misc)
