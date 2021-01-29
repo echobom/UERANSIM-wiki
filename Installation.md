@@ -47,7 +47,7 @@ sudo snap install cmake --classic
 
 ### Building
 
-And here's the easiest part:
+And here's command for building:
 
 ```
 cd ~/UERANSIM
