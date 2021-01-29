@@ -34,4 +34,13 @@ nr-ue -c myconfig.yaml -n 10 -i imsi-286010000000001
 
 ### Usage of the Data Plane
 
-TODO
+We provide a TUN interface in order to use UE's internet connectivity. With the version v2.2.1 all TUN configurations are automatically applied.
+
+A TUN interface is setup for each PDU session. After successful establishment of a PDU session, the UE automatically performs the following operations:
+
+1) A TUN interface is created.
+2) A routing table, an IP rule, and an IP route are configured.
+
+**NOTE:** You can start the UE with `nr-ue --no-route-config` if you don't want the automatic routing configurations (item 2). However TUN interface is always created after a PDU session establishment (item 1).
+
+**NOTE:** Using UE and Core Network on the same computer usually causes problems. Please use 2 different machines for UERANSIM and core network. (You can use virtual machines or non-virtual machines, it does not matter.)
