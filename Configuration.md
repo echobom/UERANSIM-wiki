@@ -11,4 +11,11 @@ nr-gnb -c myconfig2.yaml
 
 We also provide some example configuration files located at `config` folder. You can either edit them, or write your own files. But do not try to use example configurations as is without setting parameters for your own environment.
 
+An example command line for using sample configurations:
+
+```
+cd ~/UERANSIM/build
+./nr-ue -c ../config/open5gs-ue.yaml
+```
+
 // TODO
