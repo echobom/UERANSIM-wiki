@@ -34,4 +34,6 @@ cd ~/UERANSIM/build
 
 ### gNB Configuration
 
-TODO
+- **mcc/mnc**: This field is already explained above.
+- **nci**: This field specifies the NR Cell Identity. Also **idLength** specifies the bit length of the gNB ID which is a part of this NR Cell Identity. More on [TS 38.413](https://www.etsi.org/deliver/etsi_ts/138400_138499/138413/16.04.00_60/ts_138413v160400p.pdf)
+- **tac**: Tracking Area Code (TAC) value for this cell.
