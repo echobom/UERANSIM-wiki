@@ -30,5 +30,4 @@ or
 
 ```
 nr-ue -c myconfig.yaml -n 10 -i imsi-286010000000001
-
 ```
