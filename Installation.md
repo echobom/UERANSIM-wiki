@@ -61,3 +61,6 @@ After successfully compiling the project, output binaries will be copied to `~/U
 3. **nr-binder** | A tool for utilizing UE's internet connectivity.
 4. **libdevbnd.so** | A dynamic library for nr-binder
 
+Run `nr-gnb` and `nr-ue` to start using UE and gNB. More details about them can be found on Usage documentation.
+
+`nr-binder` and `libdevbnd.so` are only required for binding UEs internet connectivity to an arbitrary application, and generally not used.
