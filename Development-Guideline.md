@@ -39,4 +39,4 @@ We suggest the usage of [Clion](https://www.jetbrains.com/clion/) as the IDE.
 2. Click `Open`
 3. Select the root folder of UERANSIM and hit OK
 4. Clion will ask you if you want to import the project as `CMake` or `makefile`. Select **CMake**.
-5. Click `Build/Build Project` from the top menu
+5. Click `Build/Build Project` from the top menu.
