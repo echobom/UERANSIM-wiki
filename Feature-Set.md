@@ -65,7 +65,7 @@ Following features are implemented in NGAP layer:
 
 ### User Plane
 
-Our RAN implements **GTP** protocol for user plane.
+Our RAN implements **GTP** protocol for user plane. And Currently only IPv4 is supported.
 
 ### Radio Interface
 
