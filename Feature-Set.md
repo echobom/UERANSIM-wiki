@@ -47,3 +47,33 @@ For identification,
 
 - NAI and ciphered SUCI are not implemented yet.
 
+### NGAP Features
+
+Following features are implemented in NGAP layer:
+
+- PDU Session Resource Setup
+- Initial Context Setup
+- UE Context Release (AMF initiated)
+- UE Context Modification
+- Initial UE Message
+- Downlink NAS Transport
+- Uplink NAS Transport
+- NAS Non Delivery Indication
+- Reroute NAS Request
+- NG Setup
+- Error Indication
+
+### User Plane
+
+Our RAN implements **GTP** protocol for user plane.
+
+### Radio Interface
+
+Here's the current status in summary of the 5G New Radio stack:
+
+1. **PHY:** Waiting
+2. **MAC:** Waiting
+3. **RLC:** Complete
+4. **PDCP:** In Progress
+5.1. **RRC:** In Progress
+5.2. **SDAP:** Waiting
