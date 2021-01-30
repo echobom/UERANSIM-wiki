@@ -71,9 +71,9 @@ Our RAN implements **GTP** protocol for user plane.
 
 Here's the current status in summary of the 5G New Radio stack:
 
-1. **PHY:** Waiting
-2. **MAC:** Waiting
-3. **RLC:** Complete
-4. **PDCP:** In Progress
-5.1. **RRC:** In Progress
-5.2. **SDAP:** Waiting
+- **PHY:** Waiting
+- **MAC:** Waiting
+- **RLC:** Complete
+- **PDCP:** In Progress
+- **RRC:** In Progress
+- **SDAP:** Waiting
