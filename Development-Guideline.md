@@ -8,6 +8,16 @@ If you want to contribute to the UERANSIM. Here you can find some development gu
     - Use `AlwaysBreakTemplateDeclarations: Yes` (for clang tidy)
     - Use `camelCase` for instance methods, `PascalCase` for static functions.
 
+### Development Environment
+
+We suggest the usage of [Clion](https://www.jetbrains.com/clion/) as the IDE.
+
+1. Start Clion C++ IDE
+2. Click `Open`
+3. Select the root folder of UERANSIM and hit OK
+4. Clion will ask you if you want to import the project as `CMake` or `makefile`. Select **CMake**.
+5. Click `Build/Build Project` from the top menu.
+
 ### 3GPP Specifications
 
 All of the 5G with all internals are designed and defined by international 3GPP organization. Our ultimate references for 5G implementation are those documents. Here's the list of technical specifications often used by UERANSIM:
@@ -29,14 +39,4 @@ All of the 5G with all internals are designed and defined by international 3GPP 
 - [TS 38.414](https://www.etsi.org/deliver/etsi_ts/138400_138499/138414/16.00.00_60/ts_138414v160000p.pdf) : NG-RAN; NG data transport
 - [TS 38.415](https://www.etsi.org/deliver/etsi_ts/138400_138499/138415/16.03.00_60/ts_138415v160300p.pdf) : NG-RAN; PDU session user plane protocol
 
-We currently use release-15 for 3GPP specifications, and have a plan to switch to release-16 in the future.
-
-### Development Environment
-
-We suggest the usage of [Clion](https://www.jetbrains.com/clion/) as the IDE.
-
-1. Start Clion C++ IDE
-2. Click `Open`
-3. Select the root folder of UERANSIM and hit OK
-4. Clion will ask you if you want to import the project as `CMake` or `makefile`. Select **CMake**.
-5. Click `Build/Build Project` from the top menu.
+We use release-15 for 3GPP specifications
