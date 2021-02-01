@@ -3,7 +3,7 @@ If you want to contribute to the UERANSIM. Here you can find some development gu
 ### C++ Coding Style
 
 - This specific coding style guideline shall be used inside of the UERANSIM project.
-- Do **not** use C language, and don't write C-style codes. Use modern and rich C++ features instead.
+- Do not use C language, and don't write C-style codes. Use modern and rich C++ features instead.
 - Use Microsoft's C++ coding guidelines, with following exceptions:
     - Use `AlwaysBreakTemplateDeclarations: Yes` (for clang tidy)
     - Use `camelCase` for instance methods, `PascalCase` for static functions.
