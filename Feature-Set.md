@@ -45,7 +45,12 @@ For NAS security,
 
 For identification,
 
-- NAI and ciphered SUCI are not implemented yet.
+- NAI and ciphered SUCI are not implemented yet. All others identity types can be used (IMSI, IMEI, IMEISV)
+
+For registration,
+
+- Initial registration and periodic registration are implemented.
+- Emergency registration and mobility update registration are not implemented yet.
 
 ### NGAP Features
 
