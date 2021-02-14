@@ -23,7 +23,7 @@ Other Linux distributions are likely to work in general. But unfortunately Windo
 
 ### Dependencies
 
-Firstly it would be better to update your apt repositories and upgrade the programs.
+Firstly it's better to update your apt repositories and upgrade the programs.
 
 ```
 sudo apt update
