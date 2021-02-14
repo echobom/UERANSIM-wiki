@@ -13,7 +13,7 @@ git clone https://github.com/aligungr/UERANSIM
 
 1. Ubuntu 16.04 or later
 2. CMake 3.17 or later
-3. G++ 7.0 or later
+3. g++ 7.0 or later
 
 Other Linux distributions are likely to work in general. But unfortunately Windows is **not** supported since Microsoft didn't implement SCTP protocol. You would need a virtual machine for a workaround.
 
