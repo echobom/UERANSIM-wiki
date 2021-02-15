@@ -59,8 +59,9 @@ And that's it. After successfully compiling the project, output binaries will be
 
 1. **nr-gnb** | Main executable for 5G gNB (RAN)
 2. **nr-ue** | Main executable for 5G UE
-3. **nr-binder** | A tool for utilizing UE's internet connectivity.
-4. **libdevbnd.so** | A dynamic library for nr-binder
+3. **nr-cli** | CLI executable for 5G gNB and UE
+4. **nr-binder** | A tool for utilizing UE's internet connectivity.
+5. **libdevbnd.so** | A dynamic library for nr-binder
 
 Run `nr-gnb` and `nr-ue` to start using UE and gNB. More details about them can be found in next steps.
 
