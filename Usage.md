@@ -168,7 +168,7 @@ $ ue-list --version
 
 etc.
 
-You can also use `-e/--exec` option if you want to directly execute the command instead of over the interactive shell.
+You can also use `-e/--exec` option if you want to directly execute the command instead of using the interactive shell.
 
 For example:
 
