@@ -138,7 +138,7 @@ imsi-001010000000002
 imsi-001010000000003
 ```
 
-After executing running `nr-cli <node-name>` command, an interactive shell will be open if given node is present and running in the environment. You can now execute further commands for this node.
+After running `nr-cli <node-name>` command, an interactive shell will be open if given node is present and running in the environment. You can now execute further commands for this node.
 
 To see available commands, use `commands`.
 
