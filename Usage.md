@@ -31,6 +31,71 @@ or
 ```
 nr-ue -c myconfig.yaml -n 10 -i imsi-286010000000001
 ```
+---
+
+### Usage of the Command Line Interface (CLI)
+
+We provide `nr-cli` tool for both gNB and UEs.
+
+Usage:
+
+```nr-cli <node-name>```
+
+Here you need to replace `<node-name>` with a UE or gNB name. For example:
+
+```
+nr-cli imsi-001010000000001
+```
+
+You can query the current UE and gNBs in the environment using:
+
+```
+$ nr-cli --dump
+
+imsi-001010000000001
+imsi-001010000000002
+imsi-001010000000003
+```
+
+After running `nr-cli <node-name>` command, an interactive shell will be open if given node is present and running in the environment. You can now execute further commands for this node.
+
+To see available commands, use `commands`.
+
+For Example:
+
+```
+user@pc:~/UERANSIM/build$ ./nr-cli UERANSIM-gnb-001-01-1
+--------------------------------------------------------------------------------------------
+$ commands
+amf-info | Show some status information about the given AMF
+amf-list | List all AMFs associated with the gNB
+info     | Show some information about the gNB
+status   | Show some status information about the gNB
+ue-count | Print the total number of UEs connected the this gNB
+ue-list  | List all UEs associated with the gNB
+--------------------------------------------------------------------------------------------
+```
+
+You can further investigate usage and help information for sub-commands.
+
+For example:
+
+```
+$ amf-info --help
+$ ue-list --version
+```
+
+etc.
+
+You can also use `-e/--exec` option if you want to directly execute the command instead of using the interactive shell.
+
+For example:
+
+```
+nr-cli imsi-001010000000001 --exec "status"
+```
+
+For more details, see `nr-cli --help`
 
 ---
 
@@ -113,67 +178,3 @@ If you are not able to connect to the internet, make sure that the following con
 - IP address given to `nr-binder` is exactly same with the IP address of the related IP PDU Session.
 
 ---
-
-### Usage of the Command Line Interface (CLI)
-
-We provide `nr-cli` tool for both gNB and UEs.
-
-Usage:
-
-```nr-cli <node-name>```
-
-Here you need to replace `<node-name>` with a UE or gNB name. For example:
-
-```
-nr-cli imsi-001010000000001
-```
-
-You can query the current UE and gNBs in the environment using:
-
-```
-$ nr-cli --dump
-
-imsi-001010000000001
-imsi-001010000000002
-imsi-001010000000003
-```
-
-After running `nr-cli <node-name>` command, an interactive shell will be open if given node is present and running in the environment. You can now execute further commands for this node.
-
-To see available commands, use `commands`.
-
-For Example:
-
-```
-user@pc:~/UERANSIM/build$ ./nr-cli UERANSIM-gnb-001-01-1
---------------------------------------------------------------------------------------------
-$ commands
-amf-info | Show some status information about the given AMF
-amf-list | List all AMFs associated with the gNB
-info     | Show some information about the gNB
-status   | Show some status information about the gNB
-ue-count | Print the total number of UEs connected the this gNB
-ue-list  | List all UEs associated with the gNB
---------------------------------------------------------------------------------------------
-```
-
-You can further investigate usage and help information for sub-commands.
-
-For example:
-
-```
-$ amf-info --help
-$ ue-list --version
-```
-
-etc.
-
-You can also use `-e/--exec` option if you want to directly execute the command instead of using the interactive shell.
-
-For example:
-
-```
-nr-cli imsi-001010000000001 --exec "status"
-```
-
-For more details, see `nr-cli --help`
