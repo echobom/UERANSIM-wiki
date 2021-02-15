@@ -138,8 +138,6 @@ imsi-001010000000002
 imsi-001010000000003
 ```
 
-Using the Interactive Shell:
-
 After executing,
 
 ```
@@ -176,3 +174,13 @@ $ ue-list --version
 ```
 
 etc.
+
+You can also use `-e/--exec` option if you want to directly execute the command instead of over the interactive shell.
+
+For example:
+
+```
+nr-cli imsi-001010000000001 --exec "status"
+```
+
+For more details, see `nr-cli --help`
