@@ -104,3 +104,6 @@ If you are not able to connect to the internet, make sure that the following con
 - A PDU Session is successfully established.
 - IP address given to `nr-binder` is exactly same with the IP address of the related IP PDU Session.
 
+### Usage of the Command Line Interface (CLI)
+
+TODO
