@@ -138,18 +138,11 @@ imsi-001010000000002
 imsi-001010000000003
 ```
 
-After executing,
-
-```
-nr-cli <node-name>
-```
-
-an interactive shell will be open if given node is present and running in the environment.
-You can now execute further commands for this node.
+After executing running `nr-cli <node-name>` command, an interactive shell will be open if given node is present and running in the environment. You can now execute further commands for this node.
 
 To see available commands, use `commands`.
 
-Example:
+For Example:
 
 ```
 user@pc:~/UERANSIM/build$ ./nr-cli UERANSIM-gnb-001-01-1
