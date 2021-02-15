@@ -32,6 +32,8 @@ or
 nr-ue -c myconfig.yaml -n 10 -i imsi-286010000000001
 ```
 
+---
+
 ### Usage of the Data Plane
 
 We provide a TUN interface in order to use UE's internet connectivity. With the version v2.2.1 all TUN configurations are automatically applied.
@@ -44,6 +46,8 @@ A TUN interface is setup for each PDU session. After successful establishment of
 **NOTE:** Routing configurations may clash with your current settings. You can start the UE with `nr-ue --no-route-config` if you don't want the automatic routing configurations (item 2). However TUN interface is always created after a PDU session establishment (item 1).
 
 **NOTE:** Using UE and Core Network on the same computer usually causes problems. Please use 2 different machines for UERANSIM and core network. (You can use virtual machines or non-virtual machines.)
+
+---
 
 ### Using the TUN Interface
 
@@ -63,6 +67,8 @@ sudo curl --interface uesimtun0 google.com
 ```
 
 etc. However we also provide our experimental `./nr-binder` tool to utilize UE's connection easily.
+
+---
 
 ### Using the TUN via `./nr-binder`
 
@@ -96,6 +102,8 @@ After running this command, all network traffic occurred in Firefox, will use UE
 
 **NOTE**: Please kill all Firefox processes before running the command above.
 
+---
+
 ### Troubleshooting
 
 If you are not able to connect to the internet, make sure that the following conditions are satisfied:
@@ -104,6 +112,67 @@ If you are not able to connect to the internet, make sure that the following con
 - A PDU Session is successfully established.
 - IP address given to `nr-binder` is exactly same with the IP address of the related IP PDU Session.
 
+---
+
 ### Usage of the Command Line Interface (CLI)
 
-TODO
+We provide `nr-cli` tool for both gNB and UEs.
+
+Usage:
+
+```nr-cli <node-name>```
+
+Here you need to replace `<node-name>` with a UE or gNB name. For example:
+
+```
+nr-cli imsi-001010000000001
+```
+
+You can query the current UE and gNBs in the environment using:
+
+```
+$ nr-cli --dump
+
+imsi-001010000000001
+imsi-001010000000002
+imsi-001010000000003
+```
+
+Using the Interactive Shell:
+
+After executing,
+
+```
+nr-cli <node-name>
+```
+
+an interactive shell will be open if given node is present and running in the environment.
+You can now execute further commands for this node.
+
+To see available commands, use `commands`.
+
+Example:
+
+```
+user@pc:~/UERANSIM/build$ ./nr-cli UERANSIM-gnb-001-01-1
+--------------------------------------------------------------------------------------------
+$ commands
+amf-info | Show some status information about the given AMF
+amf-list | List all AMFs associated with the gNB
+info     | Show some information about the gNB
+status   | Show some status information about the gNB
+ue-count | Print the total number of UEs connected the this gNB
+ue-list  | List all UEs associated with the gNB
+--------------------------------------------------------------------------------------------
+```
+
+You can further investigate usage and help information for sub-commands.
+
+For example:
+
+```
+$ amf-info --help
+$ ue-list --version
+```
+
+etc.
