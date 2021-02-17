@@ -146,7 +146,7 @@ You can bind the `uesimtunX` interface to almost any application using `./nr-bin
 Usage:
 
 ```
-./nr-binder {IP} {COMMAND} {ARGS}
+./nr-binder {PDU-SESSON-IP-ADDRESS} {COMMAND} {ARGS}
 ```
 
 For example:
