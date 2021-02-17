@@ -156,7 +156,7 @@ For example:
 ```
 
 In this way, `curl` command will use UE's internet connection with IP `10.45.0.2`.
-(Here `10.45.0.2` is the IP address of the PDU session that you want to utilize.)
+(Here `10.45.0.2` is the IP address of the PDU session that you want to utilize. You may need to replace it with your own PDU session address.)
 
 You can also use web browsers such as Firefox. For example:
 
