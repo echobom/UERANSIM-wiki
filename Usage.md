@@ -155,7 +155,8 @@ For example:
 ./nr-binder 10.45.0.2 curl google.com
 ```
 
-In this way, `curl` command will use UE's internet connection with IP `10.45.0.2`
+In this way, `curl` command will use UE's internet connection with IP `10.45.0.2`.
+(Here `10.45.0.2` is the IP address of the PDU session that you want to utilize.)
 
 You can also use web browsers such as Firefox. For example:
 
