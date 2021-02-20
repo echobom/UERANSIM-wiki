@@ -8,6 +8,7 @@ Free5gc Integration:
 - [Install UERANSIM](https://www.youtube.com/watch?v=sdjglR5RlMM)
 - [Config free5GC and UERANSIM](https://www.youtube.com/watch?v=_bzketIgZwI)
 - [Run free5GC and UERANSIM](https://www.youtube.com/watch?v=JhrO05my5W8)
+- [5GC Advanced Example with free5gc](https://github.com/s5uishida/free5gc_ueransim_sample_config)
 
 ---
 
