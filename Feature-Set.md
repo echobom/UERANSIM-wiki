@@ -58,7 +58,7 @@ Following features are implemented in NGAP layer:
 
 - PDU Session Resource Setup
 - Initial Context Setup
-- UE Context Release (AMF initiated)
+- UE Context Release (NG-RAN node initiated and AMF initiated)
 - UE Context Modification
 - Initial UE Message
 - Downlink NAS Transport
