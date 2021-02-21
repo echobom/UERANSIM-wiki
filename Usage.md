@@ -14,7 +14,7 @@ Run the following command to start a UE:
 nr-ue -c myconfig.yaml
 ```
 
-You can also set number of UEs by setting:
+You can also set the number of UEs by:
 
 ```
 nr-ue -c myconfig.yaml -n 10
