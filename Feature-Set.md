@@ -78,7 +78,7 @@ Here's the current status in summary of the 5G New Radio stack:
 
 - **PHY:** Waiting
 - **MAC:** Waiting
-- **RLC:** Complete
+- **RLC:** Done
 - **PDCP:** In Progress
 - **RRC:** In Progress
 - **SDAP:** Waiting
