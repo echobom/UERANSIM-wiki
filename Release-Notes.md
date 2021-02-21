@@ -1,5 +1,3 @@
----
-
 ### v3.1.1 Release Notes
 
 #### New Features
@@ -47,5 +45,3 @@
 #### Known issues
 - gNB CLI cannot be used while gNB is trying to establish an SCTP connection.
 - NIA3 and NEA3 algorithms may not work as expected
-
----
