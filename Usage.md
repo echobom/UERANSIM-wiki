@@ -97,6 +97,8 @@ nr-cli imsi-001010000000001 --exec "status"
 
 For more details, see `nr-cli --help`
 
+And note that UE and gNB have different CLI commands.
+
 ---
 
 ### Usage of the Data Plane
