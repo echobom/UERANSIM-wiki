@@ -4,7 +4,7 @@
 - UE de-registration implementation
 - AN (Access Network) release implementation
 - UE power-off implementation
-- Radio link failure handling
+- Radio Link Failure handling
 
 #### Fixes
 - AMF set id and AMF pointer negative value fix
