@@ -37,6 +37,8 @@ nr-ue -c myconfig.yaml -n 10 -i imsi-286010000000001
 
 We provide `nr-cli` tool for both gNB and UEs.
 
+**NOTE:** UE and gNB have different CLI commands. For example in gNB you can check the AMF connection status, or in UE you can trigger de-registration. More details are explained in the present documents.
+
 Usage:
 
 ```nr-cli <node-name>```
@@ -96,8 +98,6 @@ nr-cli imsi-001010000000001 --exec "status"
 ```
 
 For more details, see `nr-cli --help`
-
-And note that UE and gNB have different CLI commands.
 
 ---
 
