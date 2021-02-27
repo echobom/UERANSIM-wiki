@@ -25,6 +25,7 @@
 #### Breaking Changes
 - NSSAI property in UE config file changed
 - Default OP type changed to OPC in sample config files
+- Default IMSI value changed in some of the sample config files
 
 #### Known Issues
 - UE may become unusable in CM-IDLE state, since Service Request procedure is not implemented yet.
