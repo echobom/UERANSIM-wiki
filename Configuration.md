@@ -18,6 +18,9 @@ cd ~/UERANSIM/build
 
 ./nr-gnb -c ../config/open5gs-gnb.yaml
 ./nr-ue -c ../config/open5gs-ue.yaml
+
+./nr-gnb -c ../config/free5gc-gnb.yaml
+./nr-ue -c ../config/free5gc-ue.yaml
 ```
 
 ### UE Configuration
