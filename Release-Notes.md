@@ -1,3 +1,39 @@
+### v3.1.2 Release Notes
+
+#### New Features
+- Configured and default NSSAIs separation
+- UE local NAS connection release implementation
+- T3510 and T3519 handling
+
+#### Fixes
+- PSI value fixed in PDU session establishment
+- Deadlock fixed in the AN-Release-REGISTERED_INITATED conflict
+- NAS timer remaining value fix in CLI
+- Minor fix in Identity Procedure
+- Compilation fix for crypt.cpp
+
+#### Improvements
+- Initial Registration abnormal case improvements
+- De-registration abnormal case improvements
+- Authentication Procedure abnormal case improvements
+- Security Mode Control abnormal case improvements
+- 5G-Update-Status and emergency information added to UE CLI
+- NAS Timer displaying slighly changed in UE CLI
+- Authentication keys removed from logging
+- Minor logging fixes and improvements
+
+#### Breaking Changes
+- NSSAI property in UE config file changed
+- Default OP type changed to OPC in sample config files
+
+#### Known Issues
+- UE may become unusable in CM-IDLE state, since Service Request procedure is not implemented yet.
+- gNB CLI cannot be used while gNB is trying to establish an SCTP connection.
+- NIA3 and NEA3 algorithms may not work as expected
+
+
+---
+
 ### v3.1.1 Release Notes
 
 #### New Features
