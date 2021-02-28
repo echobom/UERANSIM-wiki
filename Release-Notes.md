@@ -1,3 +1,27 @@
+### v3.1.3 Release Notes
+
+#### New Features
+- None
+
+#### Fixes
+- Periodic registration in RM_REGISTERED fix
+- Crash when high throughput data traffic fix
+- Compilation fixes caused by missing "stdexcept" header
+
+#### Improvements
+- Mobility and periodic registration abnormal case handling
+
+#### Breaking Changes
+- None
+
+#### Known Issues
+- UE may become unusable in CM-IDLE state, since Service Request procedure is not implemented yet.
+- gNB CLI cannot be used while gNB is trying to establish an SCTP connection.
+- NIA3 and NEA3 algorithms may not work as expected
+
+
+---
+
 ### v3.1.2 Release Notes
 
 #### New Features
