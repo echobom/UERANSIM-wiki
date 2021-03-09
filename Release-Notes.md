@@ -15,6 +15,7 @@
 - None
 
 #### Known Issues
+- Re-registration requirement after de-registration is not handled yet.
 - UE may become unusable in CM-IDLE state, since Service Request procedure is not implemented yet.
 - gNB CLI cannot be used while gNB is trying to establish an SCTP connection.
 - NIA3 and NEA3 algorithms may not work as expected
