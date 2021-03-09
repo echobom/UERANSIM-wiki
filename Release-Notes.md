@@ -1,3 +1,26 @@
+### v3.1.4 Release Notes
+
+#### New Features
+- USIM (Universal Subscriber Identity Module) removal through UE CLI
+
+#### Fixes
+- Local release of PDU sessions on UE de-registration
+- UE TUN interface MTU size reduced to 1400
+
+#### Improvements
+- De-registration abnormal case handling
+- Minor logging improvements
+
+#### Breaking Changes
+- None
+
+#### Known Issues
+- UE may become unusable in CM-IDLE state, since Service Request procedure is not implemented yet.
+- gNB CLI cannot be used while gNB is trying to establish an SCTP connection.
+- NIA3 and NEA3 algorithms may not work as expected
+
+---
+
 ### v3.1.3 Release Notes
 
 #### New Features
