@@ -41,4 +41,4 @@ All of the 5G with all internals are designed and defined by international 3GPP 
 - [TS 38.414](https://www.etsi.org/deliver/etsi_ts/138400_138499/138414/16.00.00_60/ts_138414v160000p.pdf) : NG-RAN; NG data transport
 - [TS 38.415](https://www.etsi.org/deliver/etsi_ts/138400_138499/138415/16.03.00_60/ts_138415v160300p.pdf) : NG-RAN; PDU session user plane protocol
 
-We use R15.6.0 for 3GPP specifications
+We use release **15.6.0** for 3GPP specifications
