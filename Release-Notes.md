@@ -1,3 +1,34 @@
+### v3.1.5 Release Notes
+
+#### New Features
+- Emergency PDU session support
+- T3580, T3502 handling
+- eCall inactivity handling
+- Integrity protection maximum data rate becomes configurable
+
+#### Fixes
+- None
+
+#### Improvements
+- Registration attempt counter improvements
+- Minor RRC RLF improvements
+- Error controls improved in PDU session establishment
+- Minor logging improvements
+- Status command output slightly changed in UE CLI
+- Emergency detection improvements in MM sublayer
+
+#### Breaking Changes
+- UE config files slightly changed
+
+#### Known Issues
+- Re-registration requirement after de-registration is not handled yet.
+- UE may become unusable in CM-IDLE state, since Service Request procedure is not implemented yet.
+- gNB CLI cannot be used while gNB is trying to establish an SCTP connection.
+- NIA3 and NEA3 algorithms may not work as expected
+
+
+---
+
 ### v3.1.4 Release Notes
 
 #### New Features
