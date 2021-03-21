@@ -38,7 +38,7 @@ cd ~/UERANSIM/build
 - **configured-nssai:** Configured NSSAI for this UE by HPLMN (Home PLMN). Content of the NSSAI is already explained above.
 - **default-nssai:** Default Configured NSSAI for this UE device. Content of the NSSAI is already explained above.
 - **integrity/ciphering:** Here you can set supported integrity and ciphering algorithm for this specific UE. Normally UERANSIM supports all of the algorithms but you can disable some of them manually by this configuration.
-- **integrityMaxRate:** This fields specifies the integrity protection maximum data rate for user plane for this UE. Possible values are `64kbps` and `full` as specified by 3GPP 24.501.
+- **integrityMaxRate:** This fields specifies the integrity protection maximum data rate for user plane for this UE. Possible values are `64kbps` and `full` as specified by TS 24.501.
 
 ### gNB Configuration
 
