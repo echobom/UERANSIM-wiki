@@ -1,3 +1,32 @@
+### v3.1.6 Release Notes
+
+#### New Features
+- UE-initated PDU session release implementation
+- Network-initated PDU session release implementation
+- PDU session establishment routing failure handling
+- PDU session establishment reject handling
+- 5G-SM status handling
+- PDU session establishment through CLI
+- PDU session release through CLI
+
+#### Fixes
+- Empty requested NSSAI fix
+
+#### Improvements
+- Minor logging improvements
+- CLI output improvements for command dump
+
+#### Breaking Changes
+- None
+
+#### Known Issues
+- Re-registration requirement after de-registration is not handled yet.
+- UE may become unusable in CM-IDLE state, since Service Request procedure is not implemented yet.
+- gNB CLI cannot be used while gNB is trying to establish an SCTP connection.
+- NIA3 and NEA3 algorithms may not work as expected
+
+---
+
 ### v3.1.5 Release Notes
 
 #### New Features
