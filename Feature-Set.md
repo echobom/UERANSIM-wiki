@@ -32,11 +32,12 @@ We implemented the following features:
 - Initial and Periodic Registration
 - UE and Network initiated De-registration
 - UE initiated PDU session establishment
+- UE and Network initiated PDU session release
 
 Following features are not implemented yet:
 
 - e-Call Inactivity, Service Request, Paging, Notification
-- PDU session authorization, modification, release
+- PDU session authorization, modification
 
 For NAS security,
 
@@ -57,6 +58,7 @@ For registration,
 Following features are implemented in NGAP layer:
 
 - PDU Session Resource Setup
+- PDU Session Resource Release
 - Initial Context Setup
 - UE Context Release (NG-RAN node initiated and AMF initiated)
 - UE Context Modification
