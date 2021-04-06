@@ -28,7 +28,7 @@ We implemented the following features:
 - Primary Authentication and Key Agreement
 - Security Mode Control
 - Identification
-- Generic UE Configuration Update
+- Generic UE Configuration Update (partial)
 - Initial and Periodic Registration
 - UE and Network initiated De-registration
 - UE initiated PDU session establishment
