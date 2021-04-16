@@ -46,7 +46,7 @@ For NAS security,
 
 For identification,
 
-- NAI and ciphered SUCI are not implemented yet. All others identity types can be used (IMSI, IMEI, IMEISV)
+- NAI and ciphered SUCI are not implemented yet. All other identity types can be used (IMSI, IMEI, IMEISV)
 
 For registration,
 
