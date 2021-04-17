@@ -1,3 +1,32 @@
+### v3.1.7 Release Notes
+
+#### New Features
+- Service Request procedure implemented
+- Paging procedure implemented
+- UE context release command added to gNB command line
+- Cell coverage information added to UE command line
+- Acceptable cell detection and Limited Service support
+
+#### Fixes
+- Ciphering of initial nas messages disabled
+- NGAP criticality fixed for some IEs
+
+#### Improvements
+- New PLMN search and cell measurement system
+- RLF and cell coverage change detection improvements
+- GUTI/TMSI handling in Identity Procedure
+- Registration and de-registration abnormal case improvements
+- Minor logging improvements
+
+#### Breaking Changes
+- SD field removed from Open5gs sample config files
+
+#### Known Issues
+- gNB CLI cannot be used while gNB is trying to establish an SCTP connection
+- NIA3 and NEA3 algorithms may not work as expected
+
+---
+
 ### v3.1.6 Release Notes
 
 #### New Features
