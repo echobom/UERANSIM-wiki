@@ -8,7 +8,7 @@
 - Acceptable cell detection and Limited Service support
 
 #### Fixes
-- Ciphering of initial nas messages disabled
+- Ciphering of initial NAS messages disabled
 - NGAP criticality fixed for some IEs
 
 #### Improvements
