@@ -33,10 +33,12 @@ We implemented the following features:
 - UE and Network initiated De-registration
 - UE initiated PDU session establishment
 - UE and Network initiated PDU session release
+- Service Request
+- Paging
 
 Following features are not implemented yet:
 
-- e-Call Inactivity, Service Request, Paging, Notification
+- e-Call Inactivity, Notification
 - PDU session authorization, modification
 
 For NAS security,
@@ -50,8 +52,8 @@ For identification,
 
 For registration,
 
-- Initial registration and periodic registration are implemented.
-- Emergency registration and mobility update registration are not implemented yet.
+- Initial registration, mobility update registration, periodic registration are implemented.
+- Emergency registration is not implemented yet.
 
 ### NGAP Features
 
@@ -63,6 +65,7 @@ Following features are implemented in NGAP layer:
 - UE Context Release (NG-RAN node initiated and AMF initiated)
 - UE Context Modification
 - Initial UE Message
+- Paging
 - Downlink NAS Transport
 - Uplink NAS Transport
 - NAS Non Delivery Indication
