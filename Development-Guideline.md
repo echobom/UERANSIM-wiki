@@ -24,6 +24,7 @@ Here's the list of technical specifications often used by UERANSIM:
 
 - [TS 23.501](https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/15.12.00_60/ts_123501v151200p.pdf) : System architecture for the 5G System
 - [TS 23.502](https://www.etsi.org/deliver/etsi_ts/123500_123599/123502/15.12.00_60/ts_123502v151200p.pdf) : Procedures for the 5G System
+- [TS 24.007](https://www.etsi.org/deliver/etsi_ts/124000_124099/124007/16.05.00_60/ts_124007v160500p.pdf) : Mobile radio interface signalling layer 3; General Aspects
 - [TS 24.501](https://www.etsi.org/deliver/etsi_ts/124500_124599/124501/15.06.00_60/ts_124501v150600p.pdf) : Non-Access-Stratum (NAS) protocol for 5G System
 - [TS 31.101](https://www.etsi.org/deliver/etsi_ts/131100_131199/131101/15.03.00_60/ts_131101v150300p.pdf) : UICC-terminal interface; Physical and logical characteristics
 - [TS 31.102](https://www.etsi.org/deliver/etsi_ts/131100_131199/131102/15.11.00_60/ts_131102v151100p.pdf) : Characteristics of the USIM Application
