@@ -20,7 +20,7 @@ We suggest the usage of [Clion](https://www.jetbrains.com/clion/) as the IDE.
 
 ### 3GPP Specifications
 
-All of the 5G with all internals are designed and defined by international 3GPP organization. Our ultimate references for 5G implementation are those documents. Here's the list of technical specifications often used by UERANSIM:
+Here's the list of technical specifications often used by UERANSIM:
 
 - [TS 23.501](https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/15.12.00_60/ts_123501v151200p.pdf) : System architecture for the 5G System
 - [TS 23.502](https://www.etsi.org/deliver/etsi_ts/123500_123599/123502/15.12.00_60/ts_123502v151200p.pdf) : Procedures for the 5G System
