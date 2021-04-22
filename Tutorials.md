@@ -1,4 +1,4 @@
-Some 3rd party tutorials are listed herein.
+Some 3rd party tutorials and external resources are listed herein.
 
 ---
 
