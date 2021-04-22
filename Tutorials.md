@@ -19,3 +19,6 @@ Open5GS Integration:
 
 ---
 
+External Resources:
+
+- [Docker for UERANSIM](https://github.com/COCUSAG/UERANSIM_docker)
