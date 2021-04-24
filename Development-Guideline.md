@@ -26,7 +26,9 @@ We suggest the usage of [Clion](https://www.jetbrains.com/clion/) as the IDE.
 
 ### Build and Compile
 
-Build instructions in [Installation Wiki](https://github.com/aligungr/UERANSIM/wiki/Installation) is **not** required for developers. You should be able to build normally inside of Clion C++ IDE. You can also build in Debug mode, and/or utilize the debugger.
+Build instructions written in [Installation Wiki](https://github.com/aligungr/UERANSIM/wiki/Installation) is **not** required for developers. You should be able to build normally inside of Clion C++ IDE. You can also build in Debug mode, and/or utilize the debugger.
+
+If you *add*, *remove* or *rename* a source file, make sure click `Reload CMake Project`. This action is not required for in file changes.
 
 ---
 
