@@ -14,7 +14,7 @@ If you want to contribute to the UERANSIM. Here you can find some development gu
 
 ### Development Environment
 
-We suggest the usage of [Clion](https://www.jetbrains.com/clion/) as the IDE.
+It is recommended to use [Clion](https://www.jetbrains.com/clion/) as an IDE.
 
 1. Start Clion C++ IDE
 2. Click `Open`
