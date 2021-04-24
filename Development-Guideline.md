@@ -1,5 +1,7 @@
 If you want to contribute to the UERANSIM. Here you can find some development guidelines.
 
+---
+
 ### C++ Coding Style
 
 - This UERANSIM-specific coding style guideline shall be used inside of the UERANSIM project.
@@ -7,6 +9,8 @@ If you want to contribute to the UERANSIM. Here you can find some development gu
 - Use Microsoft's C++ coding guidelines, with following exceptions:
     - Use `AlwaysBreakTemplateDeclarations: Yes` (for clang tidy)
     - Use `camelCase` for instance methods, `PascalCase` for static functions.
+
+---
 
 ### Development Environment
 
@@ -17,6 +21,14 @@ We suggest the usage of [Clion](https://www.jetbrains.com/clion/) as the IDE.
 3. Select the root folder of UERANSIM and hit OK
 4. Clion will ask you if you want to import the project as `CMake` or `makefile`. Select **CMake**.
 5. Click `Build/Build Project` from the top menu.
+
+---
+
+### Build and Compile
+
+Build instructions in [Installation Wiki](https://github.com/aligungr/UERANSIM/wiki/Installation) is **not** required for developers. You should be able to build normally inside of Clion C++ IDE. You can also build in Debug mode, and/or utilize the debugger.
+
+---
 
 ### 3GPP Specifications
 
