@@ -2,7 +2,7 @@ Some 3rd party tutorials and external resources are listed herein.
 
 ---
 
-Free5gc Integration:
+Free5GC Integration:
 
 - [Create UERANSIM VM](https://www.youtube.com/watch?v=4sc-HI_GM9g)
 - [Install UERANSIM](https://www.youtube.com/watch?v=VSHEC1aUkl4)
