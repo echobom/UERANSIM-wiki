@@ -24,4 +24,4 @@ Open5GS Integration:
 External Resources:
 
 - [Docker for UERANSIM](https://github.com/COCUSAG/UERANSIM_docker)
-- [Wireshark Dissector for UERANSIM](https://github.com/louisroyer/RLS-wireshark-dissector)
+- [RLS Wireshark Dissector for UERANSIM](https://github.com/louisroyer/RLS-wireshark-dissector)
