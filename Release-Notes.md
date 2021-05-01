@@ -1,3 +1,35 @@
+### v3.1.8 Release Notes
+
+#### New Features
+- RLS/RRC dissector for Wireshark introduced
+- SQN synchronization failure handling in authentication
+- Local NAS Security Context derivation for emergency
+- Security Mode Command integrity check
+- Horizontal key derivation in Security Mode procedure
+
+#### Improvements
+- Authentication abnormal case handling
+- NAS message container handling in Securty Mode procedure
+- Generic UE Configuration Update abnormal case improvements
+- De-registration abnormal case improvements
+- T3516, T3520 handling
+- Minor logging improvements
+
+#### Bug Fixes
+- PDU Session Status related IEs encoding fix
+- SST and SD value range fixed
+- Accepting De-registration as unciphered
+- Transport Layer Address for IPv4v6 decoding fix
+
+#### Breaking Changes
+- None
+
+#### Known Issues
+- gNB CLI cannot be used while gNB is trying to establish an SCTP connection
+- NIA3 and NEA3 algorithms may not work as expected
+
+---
+
 ### v3.1.7 Release Notes
 
 #### New Features
