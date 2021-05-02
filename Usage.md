@@ -103,7 +103,7 @@ For more details, see `nr-cli --help`
 
 ### Usage of the Data Plane
 
-We provide a TUN interface in order to use UE's internet connectivity. With the version v2.2.1 all TUN configurations are automatically applied.
+UERANSIM provides a TUN interface in order to use UE's internet connectivity. With the version v2.2.1 all TUN configurations are automatically applied.
 
 A TUN interface is setup for each PDU session. After successful establishment of a PDU session, the UE automatically performs the following operations:
 
