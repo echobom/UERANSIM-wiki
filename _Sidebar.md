@@ -2,7 +2,7 @@
 * [Installation](https://github.com/aligungr/UERANSIM/wiki/Installation)
 * [Configuration](https://github.com/aligungr/UERANSIM/wiki/Configuration)
 * [Usage](https://github.com/aligungr/UERANSIM/wiki/Usage)
-* [Tutorials](https://github.com/aligungr/UERANSIM/wiki/Tutorials)
+* [Tutorials And Other Resources](https://github.com/aligungr/UERANSIM/wiki/Tutorials-And-Other-Resources)
 * [Feature Set](https://github.com/aligungr/UERANSIM/wiki/Feature-Set)
 * [Release Notes](https://github.com/aligungr/UERANSIM/wiki/Release-Notes)
 * [Development Guideline](https://github.com/aligungr/UERANSIM/wiki/Development-Guideline)
