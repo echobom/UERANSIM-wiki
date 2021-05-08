@@ -1,3 +1,26 @@
+### v3.1.9 Release Notes
+
+#### New Features
+- EAP AKA' implementation
+
+#### Improvements
+- Protection of initial NAS messages
+- Additional checks for Service Request initiation
+
+#### Bug Fixes
+- Session and UE AMBR value fixed
+- An incorrect logging fixed in Security Mode procedure
+
+#### Breaking Changes
+- None
+
+#### Known Issues
+- gNB CLI cannot be used while gNB is trying to establish an SCTP connection
+- NIA3 and NEA3 algorithms were not tested yet, it may contain bugs
+- EAP AKA' was not tested yet, it may contain bugs
+
+---
+
 ### v3.1.8 Release Notes
 
 #### New Features
