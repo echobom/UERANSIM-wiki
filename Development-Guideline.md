@@ -36,6 +36,7 @@ If you *add*, *remove* or *rename* a source file, make sure that you click `Relo
 
 Here's the list of technical specifications often used by UERANSIM:
 
+- [TS 23.122](https://www.etsi.org/deliver/etsi_ts/123100_123199/123122/16.09.00_60/ts_123122v160900p.pdf) : NAS functions related to MS in idle mode
 - [TS 23.501](https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/15.12.00_60/ts_123501v151200p.pdf) : System architecture for the 5G System
 - [TS 23.502](https://www.etsi.org/deliver/etsi_ts/123500_123599/123502/15.12.00_60/ts_123502v151200p.pdf) : Procedures for the 5G System
 - [TS 24.007](https://www.etsi.org/deliver/etsi_ts/124000_124099/124007/16.05.00_60/ts_124007v160500p.pdf) : Mobile radio interface signalling layer 3; General Aspects
