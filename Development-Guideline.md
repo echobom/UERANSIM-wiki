@@ -45,6 +45,7 @@ Here's the list of technical specifications often used by UERANSIM:
 - [TS 31.111](https://www.etsi.org/deliver/etsi_ts/131100_131199/131111/15.10.00_60/ts_131111v151000p.pdf) : USIM Application Toolkit (USAT)  
 - [TS 33.501](https://www.etsi.org/deliver/etsi_ts/133500_133599/133501/15.11.00_60/ts_133501v151100p.pdf) : Security architecture and procedures for 5G System
 - [TS 38.300](https://www.etsi.org/deliver/etsi_ts/138300_138399/138300/15.11.00_60/ts_138300v151100p.pdf) : NR and NG-RAN Overall description; 
+- [TS 38.202](https://www.etsi.org/deliver/etsi_ts/138200_138299/138202/15.06.00_60/ts_138202v150600p.pdf) : NR; Services provided by the physical layer
 - [TS 38.304](https://www.etsi.org/deliver/etsi_ts/138300_138399/138304/15.07.00_60/ts_138304v150700p.pdf) : NR; User Equipment (UE) procedures in idle mode and in RRC Inactive state
 - [TS 38.322](https://www.etsi.org/deliver/etsi_ts/138300_138399/138322/16.01.00_60/ts_138322v160100p.pdf) : NR; Radio Link Control (RLC) protocol specification
 - [TS 38.323](https://www.etsi.org/deliver/etsi_ts/138300_138399/138323/16.02.00_60/ts_138323v160200p.pdf) : NR; Packet Data Convergence Protocol (PDCP) specification
