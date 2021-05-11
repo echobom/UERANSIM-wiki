@@ -28,7 +28,7 @@ Following features are implemented in NAS layer:
 - Primary Authentication and Key Agreement
 - Security Mode Control
 - Identification
-- Generic UE Configuration Update (partial)
+- Generic UE Configuration Update
 - Initial and Periodic Registration
 - UE and Network initiated De-registration
 - UE initiated PDU session establishment
