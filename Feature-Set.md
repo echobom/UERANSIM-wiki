@@ -23,7 +23,7 @@ Control Plane has 2 interfaces:
 
 ### NAS Features
 
-We implemented the following features:
+Following features are implemented in NAS layer:
 
 - Primary Authentication and Key Agreement
 - Security Mode Control
