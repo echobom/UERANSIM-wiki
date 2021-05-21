@@ -23,5 +23,6 @@ Open5GS Integration:
 
 External Resources:
 
-- [RLS Wireshark Dissector for UERANSIM](https://github.com/louisroyer/RLS-wireshark-dissector)
+- [Towards5GS-helm](https://github.com/Orange-OpenSource/towards5gs-helm)
 - [Docker for UERANSIM](https://github.com/COCUSAG/UERANSIM_docker)
+- [RLS Wireshark Dissector for UERANSIM](https://github.com/louisroyer/RLS-wireshark-dissector)
