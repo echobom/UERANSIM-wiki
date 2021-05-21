@@ -15,8 +15,8 @@ Free5GC Integration:
 
 Open5GS Integration:
 
-- [5GC Advanced Example with Open5GS](https://github.com/s5uishida/open5gs_5gc_ueransim_sample_config)
 - [My first 5G Core: Open5Gs and UERANSIM](https://nickvsnetworking.com/my-first-5g-core-open5gs-and-ueransim/)
+- [5GC Advanced Example with Open5GS](https://github.com/s5uishida/open5gs_5gc_ueransim_sample_config)
 - [[YouTube] Install Open5Gs and UERANSIM](https://www.youtube.com/watch?v=DxhS2wdbMtc)
 
 ---
