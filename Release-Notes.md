@@ -1,3 +1,32 @@
+### v3.2.0 Release Notes
+
+#### New Features
+- System Information Broadcast MIB/SIB1
+- New PLMN and cell selection mechanism
+- New commands and information added to UE Command Line Interface
+- Last visited registered TAI, TAI change, and Registration Area handling
+- T3511/3512 handling
+
+#### Improvements
+- Re-design and implementation of RLS protocol
+- RRC connection establishment improvements
+- Radio Link Failure handling improvements
+- MM state machine behavioral improvements
+- MM procedures abnormal case improvements
+- Minor logging improvements
+
+#### Bug Fixes
+- Protecting initial NAS messages in CM-CONNECTED state
+
+#### Breaking Changes
+- Emergency field removed from PDU session configurations in UE config file
+
+#### Known Issues
+- gNB CLI cannot be used while gNB is trying to establish an SCTP connection
+- EAP AKA', NIA3 and NEA3 were not tested yet, they may contain bugs
+
+---
+
 ### v3.1.9 Release Notes
 
 #### New Features
