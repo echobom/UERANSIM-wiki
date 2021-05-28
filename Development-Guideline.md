@@ -63,3 +63,9 @@ Here's the list of technical specifications often used by UERANSIM:
 - [TS 38.415](https://www.etsi.org/deliver/etsi_ts/138400_138499/138415/16.03.00_60/ts_138415v160300p.pdf) : NG-RAN; PDU session user plane protocol
 
 We use release **15.6.0** for 3GPP specifications
+
+---
+
+### RRC Development
+
+It is recommended to use RLS dissector plugin for Wireshark.
