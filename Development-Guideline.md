@@ -66,6 +66,6 @@ We use release **15.6.0** for 3GPP specifications
 
 ---
 
-### RRC Development
+### Wireshark Plugin For RLS
 
-It is recommended to use RLS dissector plugin for Wireshark.
+It is recommended to use RLS dissector plugin for Wireshark. The plugin is available in `tools` folder.
