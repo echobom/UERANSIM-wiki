@@ -68,4 +68,5 @@ We use release **15.6.0** for 3GPP specifications
 
 ### Wireshark Plugin For RLS
 
-It is recommended to use RLS dissector plugin for Wireshark. The plugin is available in `tools` folder.
+It is recommended to use RLS dissector plugin for Wireshark.
+The plugin is available at [RLS Wireshark Dissector for UERANSIM](https://github.com/louisroyer/RLS-wireshark-dissector)
