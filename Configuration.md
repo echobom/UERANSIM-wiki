@@ -57,7 +57,7 @@ cd ~/UERANSIM/build
 - Make sure that all of the nodes in your setup (UE, gNB, and core network) can connect to each other over the network, and some firewall rule does not block the 5G traffic between nodes.
 - `SCTP` protocol with default port number `38412` is used between gNB and AMF.
   `UDP` protocol with assigned port number `2152` is used between gNB and UPF.
-  `UDP` based another protocol with assigned port number `4997` is used between gNB and UE.
+  `RLS` protocol with assigned port number `4997` is used between gNB and UE.
 
 ### Next Steps
 
