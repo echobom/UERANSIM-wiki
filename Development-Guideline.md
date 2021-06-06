@@ -36,6 +36,7 @@ If you *add*, *remove* or *rename* a source file, make sure that you click `Relo
 
 Here's the list of technical specifications often used by UERANSIM:
 
+- [TS 22.011](https://www.etsi.org/deliver/etsi_ts/122000_122099/122011/16.05.00_60/ts_122011v160500p.pdf) : Service accessibility
 - [TS 22.261](https://www.etsi.org/deliver/etsi_TS/122200_122299/122261/15.08.00_60/ts_122261v150800p.pdf) : Service requirements for next generation new services and markets
 - [TS 23.003](https://www.etsi.org/deliver/etsi_ts/123000_123099/123003/16.06.00_60/ts_123003v160600p.pdf) : Numbering, addressing and identification
 - [TS 23.122](https://www.etsi.org/deliver/etsi_ts/123100_123199/123122/16.09.00_60/ts_123122v160900p.pdf) : NAS functions related to MS in idle mode
