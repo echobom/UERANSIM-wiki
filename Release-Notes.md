@@ -1,7 +1,7 @@
 ### v3.2.1 Release Notes
 
 #### New Features
-- Unified Access Control implementation
+- Unified Access Control (UAC) implementation
 - RRC Establishment Cause handling
 - High priority UE configuration
 
