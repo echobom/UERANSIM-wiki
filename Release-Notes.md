@@ -1,3 +1,25 @@
+### v3.2.1 Release Notes
+
+#### New Features
+- Unified Access Control implementation
+- RRC Establishment Cause handling
+- High priority UE configuration
+
+#### Improvements
+- None
+
+#### Bug Fixes
+- None
+
+#### Breaking Changes
+- New UAC fields added to UE config files
+
+#### Known Issues
+- gNB CLI cannot be used while gNB is trying to establish an SCTP connection
+- EAP AKA', NIA3 and NEA3 were not tested yet, they may contain bugs
+
+---
+
 ### v3.2.0 Release Notes
 
 #### New Features
