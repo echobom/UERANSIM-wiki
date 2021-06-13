@@ -5,7 +5,7 @@ UERANSIM implements the following technologies:
 1. 5G Standalone UE (3GPP Access)
 2. 5G Standalone RAN (CU gNB)
 
-In basic terms, UE can be considered as a mobile phone and RAN as the base station.
+In basic terms, UE can be considered as a mobile phone and gNodeB as the base station.
 
 ### Interfaces
 
