@@ -35,6 +35,7 @@ Then here's the list of dependencies: (Built-in dependencies shipped with Ubuntu
 
 ```
 sudo apt install make
+sudo apt install gcc
 sudo apt install g++
 sudo apt install libsctp-dev lksctp-tools
 sudo apt install iproute2
