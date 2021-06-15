@@ -44,7 +44,7 @@ sudo snap install cmake --classic
 
 **NOTE:** Don't install **cmake** with `sudo apt-get install cmake`, because it installs very old version of cmake by default. You can use `sudo snap install cmake --classic` or build [cmake](https://cmake.org/https://cmake.org/) directly from sources.
 
-**NOTE:** `make, g++, cmake` packages are only required for building UERANSIM. However `libsctp-dev, lksctp-tools, iproute2` packages are also required at runtime.
+**NOTE:** `make, gcc/g++, cmake` packages are only required for building UERANSIM. However `libsctp-dev, lksctp-tools, iproute2` packages are also required at runtime.
 
 ---
 
