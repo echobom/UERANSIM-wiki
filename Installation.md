@@ -69,6 +69,8 @@ Run `nr-gnb` and `nr-ue` to start using UE and gNB. More details about them can 
 
 `nr-binder` and `libdevbnd.so` are only required for binding UEs internet connectivity to an arbitrary application, and generally not used.
 
+**NOTE:** If the compilation process takes too long, you can use `make -j` instead of `make`.
+
 ### Next Steps
 
 [Configuration](Configuration)
