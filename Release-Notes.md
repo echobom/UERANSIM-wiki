@@ -1,3 +1,24 @@
+### v3.2.2 Release Notes
+
+#### New Features
+- NAS replay protection
+- NAS count wrapping around handling
+
+#### Improvements
+- None
+
+#### Bug Fixes
+- Octal litarals removed in YAML parsing
+
+#### Breaking Changes
+- Octal litarals removed in YAML parsing
+
+#### Known Issues
+- gNB CLI cannot be used while gNB is trying to establish an SCTP connection
+- EAP AKA', NIA3 and NEA3 were not tested yet, they may contain bugs
+
+---
+
 ### v3.2.1 Release Notes
 
 #### New Features
