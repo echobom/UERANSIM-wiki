@@ -1,3 +1,24 @@
+---
+
+### v3.2.3 Release Notes
+
+#### New Features
+- None
+
+#### Improvements
+- Automatic IP address detection from interface name for config files
+
+#### Bug Fixes
+- IMSI length fixed
+
+#### Breaking Changes
+- None
+
+#### Known Issues
+- gNB CLI cannot be used while gNB is trying to establish an SCTP connection
+- EAP AKA', NIA3 and NEA3 were not tested yet, they may contain bugs
+---
+
 ### v3.2.2 Release Notes
 
 #### New Features
