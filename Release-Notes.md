@@ -1,3 +1,27 @@
+### v3.2.4 Release Notes
+
+#### New Features
+- None
+
+#### Improvements
+- PDU session status handling in Initial Context Setup and UE Context Release
+- "imsi-" prefix handling in UE command line arguments
+- Acceptance of IMSI smaller than 15 digits
+
+#### Bug Fixes
+- BCD decoding fixed for 5GS Mobile Identity
+- SCTP connection reset handling
+- RRC initial random ID error fixed
+- Empty registration area (TAI list) handling
+- Minor typo fix in UE config files
+
+#### Breaking Changes
+- None
+
+#### Known Issues
+- gNB CLI cannot be used while gNB is trying to establish an SCTP connection
+- EAP AKA', NIA3 and NEA3 were not tested yet, they may contain bugs
+
 ---
 
 ### v3.2.3 Release Notes
