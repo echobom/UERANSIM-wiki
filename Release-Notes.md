@@ -18,10 +18,6 @@
 #### Breaking Changes
 - None
 
-#### Known Issues
-- gNB CLI cannot be used while gNB is trying to establish an SCTP connection
-- EAP AKA', NIA3 and NEA3 were not tested yet, they may contain bugs
-
 ---
 
 ### v3.2.3 Release Notes
@@ -38,9 +34,6 @@
 #### Breaking Changes
 - None
 
-#### Known Issues
-- gNB CLI cannot be used while gNB is trying to establish an SCTP connection
-- EAP AKA', NIA3 and NEA3 were not tested yet, they may contain bugs
 ---
 
 ### v3.2.2 Release Notes
@@ -57,10 +50,6 @@
 
 #### Breaking Changes
 - Octal litarals removed in YAML parsing
-
-#### Known Issues
-- gNB CLI cannot be used while gNB is trying to establish an SCTP connection
-- EAP AKA', NIA3 and NEA3 were not tested yet, they may contain bugs
 
 ---
 
@@ -79,10 +68,6 @@
 
 #### Breaking Changes
 - New UAC fields added to UE config files
-
-#### Known Issues
-- gNB CLI cannot be used while gNB is trying to establish an SCTP connection
-- EAP AKA', NIA3 and NEA3 were not tested yet, they may contain bugs
 
 ---
 
@@ -109,10 +94,6 @@
 #### Breaking Changes
 - Emergency field removed from PDU session configurations in UE config file
 
-#### Known Issues
-- gNB CLI cannot be used while gNB is trying to establish an SCTP connection
-- EAP AKA', NIA3 and NEA3 were not tested yet, they may contain bugs
-
 ---
 
 ### v3.1.9 Release Notes
@@ -130,11 +111,6 @@
 
 #### Breaking Changes
 - None
-
-#### Known Issues
-- gNB CLI cannot be used while gNB is trying to establish an SCTP connection
-- NIA3 and NEA3 algorithms were not tested yet, it may contain bugs
-- EAP AKA' was not tested yet, it may contain bugs
 
 ---
 
@@ -164,10 +140,6 @@
 #### Breaking Changes
 - None
 
-#### Known Issues
-- gNB CLI cannot be used while gNB is trying to establish an SCTP connection
-- NIA3 and NEA3 algorithms may not work as expected
-
 ---
 
 ### v3.1.7 Release Notes
@@ -193,10 +165,6 @@
 #### Breaking Changes
 - SD field removed from Open5gs sample config files
 
-#### Known Issues
-- gNB CLI cannot be used while gNB is trying to establish an SCTP connection
-- NIA3 and NEA3 algorithms may not work as expected
-
 ---
 
 ### v3.1.6 Release Notes
@@ -219,12 +187,6 @@
 
 #### Breaking Changes
 - None
-
-#### Known Issues
-- Re-registration requirement after de-registration is not handled yet.
-- UE may become unusable in CM-IDLE state, since Service Request procedure is not implemented yet.
-- gNB CLI cannot be used while gNB is trying to establish an SCTP connection.
-- NIA3 and NEA3 algorithms may not work as expected
 
 ---
 
@@ -250,13 +212,6 @@
 #### Breaking Changes
 - UE config files slightly changed
 
-#### Known Issues
-- Re-registration requirement after de-registration is not handled yet.
-- UE may become unusable in CM-IDLE state, since Service Request procedure is not implemented yet.
-- gNB CLI cannot be used while gNB is trying to establish an SCTP connection.
-- NIA3 and NEA3 algorithms may not work as expected
-
-
 ---
 
 ### v3.1.4 Release Notes
@@ -275,12 +230,6 @@
 #### Breaking Changes
 - None
 
-#### Known Issues
-- Re-registration requirement after de-registration is not handled yet.
-- UE may become unusable in CM-IDLE state, since Service Request procedure is not implemented yet.
-- gNB CLI cannot be used while gNB is trying to establish an SCTP connection.
-- NIA3 and NEA3 algorithms may not work as expected
-
 ---
 
 ### v3.1.3 Release Notes
@@ -298,12 +247,6 @@
 
 #### Breaking Changes
 - None
-
-#### Known Issues
-- UE may become unusable in CM-IDLE state, since Service Request procedure is not implemented yet.
-- gNB CLI cannot be used while gNB is trying to establish an SCTP connection.
-- NIA3 and NEA3 algorithms may not work as expected
-
 
 ---
 
@@ -336,12 +279,6 @@
 - Default OP type changed to OPC in sample config files
 - Default IMSI value changed in some of the sample config files
 
-#### Known Issues
-- UE may become unusable in CM-IDLE state, since Service Request procedure is not implemented yet.
-- gNB CLI cannot be used while gNB is trying to establish an SCTP connection.
-- NIA3 and NEA3 algorithms may not work as expected
-
-
 ---
 
 ### v3.1.1 Release Notes
@@ -365,13 +302,6 @@
 #### Breaking Changes
 - None
 
-#### Known Issues
-- UE may become unusable in CM-IDLE state, since Service Request procedure is not implemented yet.
-- AN release or radio link failure while UE in REGISTERED-INITATED state causes deadlock.
-- gNB CLI cannot be used while gNB is trying to establish an SCTP connection.
-- NIA3 and NEA3 algorithms may not work as expected
-
-
 ---
 
 ### v3.1.0 Release Notes
@@ -387,7 +317,3 @@
 
 #### Breaking changes
 - None
-
-#### Known issues
-- gNB CLI cannot be used while gNB is trying to establish an SCTP connection.
-- NIA3 and NEA3 algorithms may not work as expected
