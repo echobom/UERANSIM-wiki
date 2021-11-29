@@ -180,4 +180,7 @@ If you are not able to connect to the internet, make sure that the following con
 - A PDU Session is successfully established.
 - IP address given to `nr-binder` is exactly same with the IP address of the related IP PDU Session.
 
+**NOTE:** Routing configurations in UERANSIM are experimental and it's not a primary feature of the software. UERANSIM only guarantees to create a TUN interface, but IP routing configurations are not guaranteed to serve any purpose. You should directly bind your applications to the TUN interface in order to utilize the UE's internet connectivity, as describied in this document.
+
+
 ---
