@@ -1,7 +1,25 @@
-### v3.2.4 Release Notes
+### v3.2.5 Release Notes
 
 #### New Features
-- None
+- 32-bit architecture support
+- IPv6 support for Radio Link and N2/N3 interfaces
+
+#### Improvements
+- TMSI handling in RRC connection setup
+
+#### Bug Fixes
+- EA3 and IA3 byte order fix
+- PDU session release related bug fix
+- UE context update related bug fix
+- T3512 handling in CM-CONNECTED mode
+- Empty payload container handling in NAS transport procedures
+- Security header type fixed for de-registration request
+- NAS sequence number handling per security context
+- Request type, NSSAI, and DNN removal from some NAS session related messages
+
+---
+
+### v3.2.4 Release Notes
 
 #### Improvements
 - PDU session status handling in Initial Context Setup and UE Context Release
@@ -15,24 +33,15 @@
 - Empty registration area (TAI list) handling
 - Minor typo fix in UE config files
 
-#### Breaking Changes
-- None
-
 ---
 
 ### v3.2.3 Release Notes
-
-#### New Features
-- None
 
 #### Improvements
 - Automatic IP address detection from interface name for config files
 
 #### Bug Fixes
 - IMSI length fixed
-
-#### Breaking Changes
-- None
 
 ---
 
@@ -41,9 +50,6 @@
 #### New Features
 - NAS replay protection
 - NAS count wrapping around handling
-
-#### Improvements
-- None
 
 #### Bug Fixes
 - Octal litarals removed in YAML parsing
@@ -59,12 +65,6 @@
 - Unified Access Control (UAC) implementation
 - RRC Establishment Cause handling
 - High priority UE configuration
-
-#### Improvements
-- None
-
-#### Bug Fixes
-- None
 
 #### Breaking Changes
 - New UAC fields added to UE config files
@@ -109,9 +109,6 @@
 - Session and UE AMBR value fixed
 - An incorrect logging fixed in Security Mode procedure
 
-#### Breaking Changes
-- None
-
 ---
 
 ### v3.1.8 Release Notes
@@ -136,9 +133,6 @@
 - SST and SD value range fixed
 - Accepting De-registration as unciphered
 - Transport Layer Address for IPv4v6 decoding fix
-
-#### Breaking Changes
-- None
 
 ---
 
@@ -185,9 +179,6 @@
 - Minor logging improvements
 - CLI output improvements for command dump
 
-#### Breaking Changes
-- None
-
 ---
 
 ### v3.1.5 Release Notes
@@ -197,9 +188,6 @@
 - T3580, T3502 handling
 - eCall inactivity handling
 - Integrity protection maximum data rate becomes configurable
-
-#### Fixes
-- None
 
 #### Improvements
 - Registration attempt counter improvements
@@ -227,15 +215,9 @@
 - De-registration abnormal case handling
 - Minor logging improvements
 
-#### Breaking Changes
-- None
-
 ---
 
 ### v3.1.3 Release Notes
-
-#### New Features
-- None
 
 #### Fixes
 - Periodic registration in RM_REGISTERED fix
@@ -244,9 +226,6 @@
 
 #### Improvements
 - Mobility and periodic registration abnormal case handling
-
-#### Breaking Changes
-- None
 
 ---
 
@@ -299,9 +278,6 @@
 - Minor logging improvements
 - RLS PDU format changed
 
-#### Breaking Changes
-- None
-
 ---
 
 ### v3.1.0 Release Notes
@@ -314,6 +290,3 @@
 - UE radio link simulation disconnect fixed
 - Minor memory leak fixes
 - AMF name fixed
-
-#### Breaking changes
-- None
