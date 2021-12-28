@@ -10,6 +10,7 @@ Free5GC Integration:
 - [[YouTube] Config free5GC and UERANSIM](https://www.youtube.com/watch?v=_bzketIgZwI)
 - [[YouTube] Run free5GC and UERANSIM](https://www.youtube.com/watch?v=JhrO05my5W8)
 - [5GC Advanced Example with free5GC](https://github.com/s5uishida/free5gc_ueransim_sample_config)
+- [[YouTube] Environment setup of multiple SMF, DNN, and UPF](https://www.youtube.com/watch?v=AEMrjKRWarw)
 
 ---
 
