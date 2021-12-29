@@ -53,7 +53,7 @@ cd ~/UERANSIM/build
 - **gtpAdvertiseIp:** If you want to separate GTP listening address and external access address, you can set this value to override Downlink User-Plane Transport Layer Address which is advertised to UPF. This field is optional and **not** required for most of the people. It is especially useful in case of a NAT between gNB and UPF. We didn't include this field in the sample config files.
 - **amfConfigs:** List of AMF IP address and port information for N2 (NGAP) interface. This is the other endpoint of what you set in `ngapIp` address. This time you should set this value as AMF's IP address. By default we wrote `127.0.0.X` in the sample configuration files, but change this according to your environment if you use gNB and AMF in different machines. This value is normally a list, but currently only first specified AMF is used. More complex AMF selection mechanism will be implemented in the future.
 - **slices:** This field is explained in the UE configurations. And it is the supported list of slices by the gNB.
-- **ignoreStreamIds:** Some core networks may not handle SCTP stream numbers properly. Set this field to `true` if you want to ignore such errors. If you are using `open5gs` or `free5gc`, you should set this value to `true`.
+- **ignoreStreamIds:** Some core networks may not handle SCTP stream numbers properly. Set this field to `true` if you want to ignore such errors.
 
 ### Environment
 
