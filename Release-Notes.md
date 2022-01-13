@@ -1,3 +1,11 @@
+### v3.2.6 Release Notes
+
+Several memory leaks in the gNodeB are fixed.
+
+**NOTE:** This is a very important release. Prior to v3.2.6, gNodeB was crashing after some time in case of heavy data plane traffic. And now this error is fixed with the v.3.2.6.
+
+---
+
 ### v3.2.5 Release Notes
 
 #### New Features
