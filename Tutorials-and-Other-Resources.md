@@ -3,7 +3,7 @@ Extensions for this list are welcomed.
 
 ---
 
-Free5GC Integration:
+**Free5GC** Integration:
 
 - [[YouTube] Create UERANSIM VM](https://www.youtube.com/watch?v=4sc-HI_GM9g)
 - [[YouTube] Install UERANSIM](https://www.youtube.com/watch?v=VSHEC1aUkl4)
@@ -15,12 +15,18 @@ Free5GC Integration:
 
 ---
 
-Open5GS Integration:
+**Open5GS** Integration:
 
 - [My first 5G Core: Open5Gs and UERANSIM](https://nickvsnetworking.com/my-first-5g-core-open5gs-and-ueransim/)
 - [5GC Advanced Example with Open5GS](https://github.com/s5uishida/open5gs_5gc_ueransim_sample_config)
 - [[YouTube] Install Open5Gs and UERANSIM](https://www.youtube.com/watch?v=DxhS2wdbMtc)
 - [[YouTube] Open5GS & UERANSIM Demo on POWDER](https://www.youtube.com/watch?v=S8-YttG2OtE)
+
+---
+
+**OpenAirInterface** Integration:
+
+- [OpenAirInterface 5G Core Network Deployment and Testing with UERANSIM](https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-fed/-/blob/master/docs/DEPLOY_SA5G_WITH_UERANSIM.md)
 
 ---
 
