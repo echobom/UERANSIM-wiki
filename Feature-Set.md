@@ -79,11 +79,4 @@ Our RAN implements **GTP** protocol for user plane. And Currently only IPv4 is s
 
 ### Radio Interface
 
-Here's the current status in summary of the 5G New Radio stack:
-
-- **PHY:** Waiting
-- **MAC:** Waiting
-- **RLC:** Done
-- **PDCP:** Waiting
-- **RRC:** In Progress
-- **SDAP:** Waiting
+UERANSIM does **not** implement 5G radio protocols below the RRC layer. And 5G radio is **partially simulated over UDP** protocol over port-4997. So, PHY, MAC, RLC, PDCP is not implemented in UERANSIM. However main RRC procedures are available in UERANSIM.
